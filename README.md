@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Time Variance Authority - Arun M" width="100%"/>
+<img src="assets/header3d.svg" alt="Time Variance Authority - Arun M" width="100%"/>
 
 <br/>
 
-<img src="assets/minutes.svg" alt="Time-keeper guide" width="100%"/>
+<img src="assets/minutes3d.svg" alt="Time-keeper guide" width="100%"/>
 
 <a href="https://github.com/Arun597134"><img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=22&duration=3000&pause=800&color=39FF6A&center=true&vCenter=true&width=800&lines=%3E+LOADING+VARIANT+FILE...;%3E+B.Tech+AI+%26+Data+Science+%7C+Class+of+2027;%3E+Full+Stack+%2B+AI%2FML+Engineer;%3E+%22I+am+burdened+with+glorious+purpose.%22;%3E+TIMELINE+STATUS%3A+BRANCHING+%E2%9C%94" alt="Typing SVG"/></a>
 
@@ -14,7 +14,7 @@
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-arunvijay-0b0f0c?style=for-the-badge&logo=linkedin&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://linkedin.com/in/arunvijay-5a2845317)
 [![GitHub](https://img.shields.io/badge/GITHUB-Arun597134-0b0f0c?style=for-the-badge&logo=github&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://github.com/Arun597134)
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider3d.svg" width="100%"/>
 
 </div>
 
@@ -30,15 +30,15 @@
 - THREAT LEVEL  : Dangerously productive. Pruning not recommended.
 ```
 
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## 🌌 THE MULTIVERSE: MY VARIANT BRANCHES
 
 <div align="center">
-<img src="assets/multiverse.svg" alt="Multiverse of projects" width="100%"/>
+<img src="assets/multiverse3d.svg" alt="Multiverse of projects" width="100%"/>
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## ⏳ CASE FILES: PROJECTS
 
@@ -93,37 +93,23 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 
 🔗 [**Open case file →**](https://github.com/Arun597134/AI-Exam-portal)
 
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## 🕰️ TIMELINE LOG: EXPERIENCE
 
-| Period | Role | Mission Report |
-|:--|:--|:--|
-| `Jul 2025 – Aug 2025` | **Software Development Intern**, Prodigy Infotech (Remote) | Built a reusable **React component library** adopted across **3+ product feature areas**. Resolved **10+ production bugs** through a peer-reviewed CI/CD pipeline. |
-| `Oct 2024 – Jan 2025` | **Web Development Intern**, Codtech IT Solutions (Remote) | Shipped **3 responsive web pages** integrated with live backend APIs for a client-facing production product. |
+<div align="center">
+<img src="assets/experience3d.svg" alt="Internship timeline" width="100%"/>
+</div>
 
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## 🛠️ TVA ARSENAL: TECH STACK
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,java,js,html,css,react,nodejs,flask&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=mongodb,sqlite,postgres,tensorflow,sklearn,opencv,pandas,numpy&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=git,github,docker,vercel&theme=dark" />
-
+<img src="assets/techstack3d.svg" alt="Tech stack" width="100%"/>
 </div>
 
-```yaml
-Languages    : Python, Java, SQL, JavaScript
-Web          : React.js, Flask, REST APIs, JWT Authentication, HTML, CSS3
-Databases    : MongoDB, SQLite, PostgreSQL
-AI / ML      : Machine Learning, Deep Learning, NLP, Computer Vision, TensorFlow, scikit-learn
-Cloud/DevOps : Git, GitHub, CI/CD, Docker, Oracle Cloud Infrastructure, Vercel, Render
-Data Tools   : Pandas, NumPy, OpenCV
-```
-
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## 📊 TIMELINE ACTIVITY MONITOR
 
@@ -146,7 +132,7 @@ Data Tools   : Pandas, NumPy, OpenCV
 
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
 
 ## 🏆 ACHIEVEMENTS & CERTIFICATIONS
 
@@ -167,7 +153,7 @@ Data Tools   : Pandas, NumPy, OpenCV
 
 <div align="center">
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider3d.svg" width="100%"/>
 
 ### ✉️ OPEN A PORTAL TO ME
 
