@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230">
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .m{font-family:'Courier New',monospace}
+    .wire{fill:none;stroke:#39ff6a;stroke-width:2;stroke-dasharray:10 8;animation:f 3s linear infinite;filter:url(#glow)}
+    @keyframes f{to{stroke-dashoffset:-180}}
+  </style>
+  <rect width="1000" height="230" fill="#0a0d0a"/>
+  <path class="wire" d="M0 215 C300 190 600 235 1000 205"/>
+  <path class="wire" style="animation-duration:5s;stroke-opacity:.5" d="M0 20 C300 45 700 0 1000 25"/>
+  <!-- clock mascot (stylised, original) -->
+  <g transform="translate(150 115)">
+    <animateTransform attributeName="transform" type="translate" additive="replace" values="150 115;150 103;150 115" dur="2.4s" repeatCount="indefinite"/>
+    <circle r="82" fill="#f08a24" filter="url(#glow)"/>
+    <circle r="68" fill="#fbe9c4"/>
+    <g stroke="#7a4310" stroke-width="3">
+      <line y1="-62" y2="-54"/><line y1="62" y2="54"/><line x1="-62" x2="-54"/><line x1="62" x2="54"/>
+    </g>
+    <!-- eyes -->
+    <g fill="#222">
+      <ellipse cx="-22" cy="-14" rx="8" ry="11"><animate attributeName="ry" values="11;11;1;11" keyTimes="0;0.9;0.95;1" dur="3.5s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="22" cy="-14" rx="8" ry="11"><animate attributeName="ry" values="11;11;1;11" keyTimes="0;0.9;0.95;1" dur="3.5s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <circle cx="-30" cy="-30" r="2" fill="#fff"/><circle cx="14" cy="-30" r="2" fill="#fff"/>
+    <ellipse cx="-38" cy="14" rx="9" ry="5" fill="#ff8a6a" opacity=".6"/><ellipse cx="38" cy="14" rx="9" ry="5" fill="#ff8a6a" opacity=".6"/>
+    <path d="M-24 18 Q0 46 24 18" fill="none" stroke="#7a4310" stroke-width="4" stroke-linecap="round"/>
+    <!-- hands -->
+    <g stroke="#7a4310" stroke-linecap="round">
+      <line y2="-30" stroke-width="5"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></line>
+      <line y2="-20" stroke-width="6"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="72s" repeatCount="indefinite"/></line>
+    </g>
+    <circle r="4" fill="#7a4310"/>
+    <!-- top bell -->
+    <rect x="-10" y="-96" width="20" height="14" rx="4" fill="#f08a24"/>
+  </g>
+  <!-- speech bubble -->
+  <g>
+    <path d="M270 40 H940 a14 14 0 0 1 14 14 V150 a14 14 0 0 1 -14 14 H290 L262 190 L268 164 a14 14 0 0 1 -12 -14 V54 a14 14 0 0 1 14 -14Z" fill="#14100a" stroke="#39ff6a" stroke-width="2"/>
+    <g class="m" font-size="22" fill="#e8d8b0">
+      <text x="290" y="85" opacity="0">Hi variant! I'm your time-keeper. Let me show you
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.30;0.34;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="290" y="120" opacity="0" fill="#39ff6a">Arun's timeline. Please keep your hands inside.
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.30;0.34;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="290" y="85" opacity="0">2 internships. 3 shipped projects. 320+ LeetCode
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.38;0.63;0.67;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="290" y="120" opacity="0" fill="#39ff6a">solved. Wow, that is a lot of time well spent!
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.38;0.63;0.67;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="290" y="85" opacity="0">No pruning needed here. This variant is<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.67;0.71;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="290" y="120" opacity="0" fill="#39ff6a">ready to build, ship and hire. Scroll on!<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.67;0.71;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+  <text x="290" y="152" class="m" font-size="11" fill="#d97a1e" letter-spacing="3">TIME-KEEPER // TVA GUIDE UNIT</text>
+</svg>
