@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70">
+  <defs>
+    <clipPath id="c"><rect width="1000" height="70" rx="12"/></clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D0D1A" stop-opacity="1"/>
+      <stop offset="0.08" stop-color="#0D0D1A" stop-opacity="0"/>
+      <stop offset="0.92" stop-color="#0D0D1A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0D0D1A" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="70" fill="#0D0D1A"/>
+    <g font-family="'Segoe UI',Verdana,sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1560 0" dur="28s" repeatCount="indefinite"/>
+        <!-- set 1 (13 pills x 120 = 1560) -->
+        <g id="set">
+          <rect x="10" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="65" y="40" fill="#e9d5ff">Python</text>
+          <rect x="130" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="185" y="40" fill="#e9d5ff">JavaScript</text>
+          <rect x="250" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="305" y="40" fill="#e9d5ff">Java</text>
+          <rect x="370" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="425" y="40" fill="#bae6fd">React</text>
+          <rect x="490" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="545" y="40" fill="#bae6fd">Node.js</text>
+          <rect x="610" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="665" y="40" fill="#bae6fd">Express</text>
+          <rect x="730" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="785" y="40" fill="#bae6fd">MongoDB</text>
+          <rect x="850" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="905" y="40" fill="#e9d5ff">TensorFlow</text>
+          <rect x="970" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="1025" y="40" fill="#e9d5ff">scikit-learn</text>
+          <rect x="1090" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1145" y="40" fill="#bae6fd">Redux</text>
+          <rect x="1210" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1265" y="40" fill="#bae6fd">Tailwind</text>
+          <rect x="1330" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="1385" y="40" fill="#e9d5ff">Flask</text>
+          <rect x="1450" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1505" y="40" fill="#bae6fd">Git</text>
+        </g>
+        <use href="#set" x="1560"/>
+      </g>
+    </g>
+    <rect width="1000" height="70" fill="url(#fade)"/>
+  </g>
+</svg>

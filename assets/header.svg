@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0D1A"/>
+      <stop offset="0.35" stop-color="#1a0533"/>
+      <stop offset="0.7" stop-color="#0d1b4b"/>
+      <stop offset="1" stop-color="#0D0D1A"/>
+    </linearGradient>
+    <linearGradient id="txt" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-500 0" to="500 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bg)"/>
+
+  <!-- pulsing glow orbs -->
+  <circle cx="200" cy="90" r="140" fill="url(#glow)">
+    <animate attributeName="r" values="120;170;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="150" r="150" fill="url(#glow)">
+    <animate attributeName="r" values="160;110;160" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- twinkling stars -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="190" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="30" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="215" r="1.3"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="25" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="200" r="1.7"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="45" r="1.4"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="225" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="35" r="1.9"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="120" r="1.3"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="130" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- floating code symbols -->
+  <g font-family="'Courier New',monospace" font-size="22" fill="#a855f7" opacity="0.5">
+    <text x="90" y="120">&lt;/&gt;<animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="4s" repeatCount="indefinite"/></text>
+    <text x="880" y="90">{ }<animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="5s" repeatCount="indefinite"/></text>
+    <text x="760" y="200" fill="#38bdf8">AI<animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4.5s" repeatCount="indefinite"/></text>
+    <text x="140" y="210" fill="#38bdf8">01<animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="3.8s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- name -->
+  <text x="500" y="125" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif" font-size="82" font-weight="800" fill="url(#txt)" letter-spacing="2">Arun M
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <!-- subtitle -->
+  <text x="500" y="168" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif" font-size="24" fill="#e2e8f0" letter-spacing="3">Full Stack Developer  |  AI / ML Engineer
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- underline sweep -->
+  <rect x="380" y="182" width="240" height="3" rx="1.5" fill="#a855f7">
+    <animate attributeName="width" values="0;240;240" keyTimes="0;0.5;1" dur="2.5s" fill="freeze"/>
+    <animate attributeName="x" values="500;380;380" keyTimes="0;0.5;1" dur="2.5s" fill="freeze"/>
+  </rect>
+
+  <!-- waves -->
+  <path fill="url(#wave1)" d="M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z;
+              M0 225 C150 250 300 190 500 225 C700 250 850 190 1000 225 L1000 260 L0 260 Z;
+              M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z"/>
+  </path>
+  <path fill="#7c3aed" fill-opacity="0.3" d="M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z;
+              M0 238 C200 255 350 215 500 238 C650 255 800 215 1000 238 L1000 260 L0 260 Z;
+              M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z"/>
+  </path>
+</svg>
