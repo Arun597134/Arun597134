@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/tva-timeline-header.gif" alt="Animated green TVA-inspired timeline wires and time dial" width="100%" />
+<img src="./tva-timeline-header.gif" alt="Animated green TVA-inspired timeline wires and time dial" width="100%" />
 
 <h3>⚡ Welcome to my branch of the multiverse ⚡</h3>
 
@@ -36,7 +36,7 @@ I'm Arun, a final-year **Artificial Intelligence and Data Science** student who 
 ## `02 // TVA TECH ARCHIVES`
 
 <div align="center">
-  <img src="./assets/minute-men-time-loop.gif" alt="Animated Minute Men-inspired time dial with green timeline wires" width="480"/>
+  <img src="./minute-men-time-loop.gif" alt="Animated Minute Men-inspired time dial with green timeline wires" width="480"/>
 </div>
 
 ### Languages & Frameworks
