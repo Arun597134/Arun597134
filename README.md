@@ -1,20 +1,357 @@
-"""Run this ONE script inside your Arun597134/Arun597134 repo folder:
-    python setup_profile.py
-It creates README.md, assets/*.svg and .github/workflows/snake.yml."""
-import os
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arun M | Full Stack Developer & AI/ML Engineer</title>
+<style>
+  :root{
+    --bg:#0D0D1A; --bg2:#1a0533; --bg3:#0d1b4b;
+    --purple:#a855f7; --violet:#7c3aed; --sky:#38bdf8; --green:#22c55e;
+    --text:#e2e8f0; --muted:#94a3b8; --card:rgba(26,5,51,.55); --border:rgba(168,85,247,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
 
-FILES = {}
-FILES['README.md'] = '<div align="center">\n\n<!-- Animated header (local SVG: stars, glow orbs, gradient name, waves) -->\n<img src="assets/header.svg" width="100%" alt="Arun M - Full Stack Developer and AI/ML Engineer" />\n\n<!-- Typing SVG -->\n<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+Scalable+Web+Applications;%F0%9F%A4%96+Engineering+Intelligent+AI%2FML+Systems;%E2%9A%A1+React+%7C+Node.js+%7C+MongoDB+%7C+Python;%F0%9F%94%AE+Turning+Data+into+Smart+Solutions" alt="Typing SVG" /></a>\n\n<br/>\n\n<!-- Social Badges -->\n<a href="https://linkedin.com/in/arunvijay-5a2845317"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>\n<a href="https://github.com/Arun597134"><img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" /></a>\n<a href="https://arunmportfolioin.netlify.app"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /></a>\n<a href="mailto:arun.m.dev06@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>\n\n<br/><br/>\n\n<img src="https://komarev.com/ghpvc/?username=Arun597134&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS" />\n<img src="https://img.shields.io/github/followers/Arun597134?label=Followers&style=for-the-badge&color=7c3aed" />\n\n<img src="assets/divider.svg" width="100%" alt="" />\n\n</div>\n\n<img align="right" alt="Coding GIF" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />\n\n## 🧠 About Me\n\n👋 &nbsp;Hey! I\'m **Arun M** — a passionate **Full Stack Developer** and **AI/ML Engineer** from Chennai, India 🇮🇳\n\n🎓 &nbsp;Pursuing **B.Tech in AI & Data Science** at St. Joseph\'s Institute of Technology &nbsp;`CGPA: 8.21 / 10`\n\n🚀 &nbsp;Currently building a **MERN Learning Management System** with role-based access & AI integration\n\n🤖 &nbsp;I love crafting intelligent systems — from NLP pipelines to real-time proctoring engines\n\n💡 &nbsp;Fun fact: *I make machines learn so I don\'t have to!*\n\n<br/>\n\n![Name](https://img.shields.io/badge/👤_Name-Arun%20M-7c3aed?style=flat-square&labelColor=1a0533)\n![Role](https://img.shields.io/badge/💼_Role-Full%20Stack%20%7C%20AI%2FML-7c3aed?style=flat-square&labelColor=1a0533)\n![Location](https://img.shields.io/badge/📍_Location-Chennai%2C%20India-7c3aed?style=flat-square&labelColor=1a0533)\n![CGPA](https://img.shields.io/badge/🎓_CGPA-8.21%20%2F%2010-7c3aed?style=flat-square&labelColor=1a0533)\n![Status](https://img.shields.io/badge/🔨_Building-MERN%20LMS-7c3aed?style=flat-square&labelColor=1a0533)\n![Open](https://img.shields.io/badge/✅_Open%20To-Opportunities-22c55e?style=flat-square&labelColor=14532d)\n\n<br clear="right"/>\n\n<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>\n\n## 🛠️ Tech Arsenal\n\n<div align="center">\n\n<!-- Scrolling skills marquee -->\n<img src="assets/marquee.svg" width="100%" alt="Skills marquee" />\n\n<br/>\n\n<img src="https://skillicons.dev/icons?i=python,js,java,react,nodejs,express,mongodb,tailwind,tensorflow,sklearn,git,vercel&theme=dark&perline=6" />\n\n<br/><br/>\n\n![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)\n![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white)\n![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)\n![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)\n![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)\n![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)\n![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)\n![TensorFlow.js](https://img.shields.io/badge/TF.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)\n\n<img src="assets/divider.svg" width="100%" alt="" />\n\n</div>\n\n## 🚀 Featured Projects\n\n<table>\n<tr>\n<td width="50%" valign="top">\n\n### 🤖 [HireWise AI — Mock Interviewer](https://github.com/Arun597134/Hirewise-AI)\n\n<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="100%"/>\n\n> AI-powered interview simulator with NLP resume parsing\n\n![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)\n![NLP](https://img.shields.io/badge/NLP-orange?style=flat-square)\n![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)\n![Tkinter](https://img.shields.io/badge/Tkinter-blue?style=flat-square)\n\n- 📄 NLP resume parsing & keyword extraction\n- ❓ 20+ tailored questions per session\n- 📈 **40% boost** in question relevance\n- 🔄 End-to-end automated interview flow\n\n</td>\n<td width="50%" valign="top">\n\n### 🎓 [AI Assessment Platform](https://github.com/arunvijay/assessment-platform)\n\n<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="100%"/>\n\n> Full-stack exam platform with AI proctoring\n\n![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)\n![TF.js](https://img.shields.io/badge/TF.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)\n\n- 📷 Webcam proctoring via TensorFlow.js\n- 🚫 Tab-switch tracking & fullscreen lock\n- 📊 Real-time integrity scores\n- 🏆 Leaderboard & analytics dashboard\n\n</td>\n</tr>\n<tr>\n<td colspan="2" valign="top">\n\n### 📚 MERN Learning Management System *(In Development 🔨)*\n\n<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="45%" align="right"/>\n\n> Full-stack LMS with role-based access and AI-proxied ML services\n\n![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)\n![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)\n![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens)\n![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)\n\n- 🔐 JWT auth + bcrypt + refresh token sessions\n- 👥 Roles: **Student**, **Instructor**, **Admin**\n- 📹 Per-session video progress tracking\n- 🔍 Search, domain filtering & paginated listings\n- 📝 Timestamped notes & session bookmarks\n- 🤖 AI/ML services proxied through backend\n\n<br clear="right"/>\n</td>\n</tr>\n<tr>\n<td colspan="2" valign="top">\n\n### 🏛️ [CivicFlow — AI Civic Complaint Platform](https://github.com/Arun597134/)\n\n<img src="https://media4.giphy.com/media/3q0h46XjxT0kdCih6M/giphy.gif" width="45%" align="right"/>\n\n> AI-powered municipal complaint management platform for Tamil Nadu citizens & administrators\n\n![React](https://img.shields.io/badge/React%2FVite-20232A?style=flat-square&logo=react&logoColor=61DAFB)\n![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)\n![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)\n![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)\n![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens)\n![ML](https://img.shields.io/badge/ML-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)\n\n**🤖 AI & ML Core**\n- 👁️ AI Vision module parses complaint images → auto-routes to correct dept (Public Works / Sanitation)\n- ⏱️ ML delay prediction model estimates resolution time from category + historical data\n- 💰 Anti-corruption cost estimation — caps base repair estimates at ₹500 for transparency\n\n**🗺️ Hyper-Local Operations**\n- 📍 All **38 Tamil Nadu districts** mapped down to town/village level\n- 🚗 Ola-style live dashboard for real-time officer assignment by geo-location\n- 📡 Citizens track assigned officer & operational status live\n\n**🌍 Citizen Empowerment**\n- 🌐 Tamil language localization via global translation widget\n- ✅ Full CRUD — citizens own, track & delete their complaints\n- 🔐 JWT-secured separate portals for Citizens & Administrators\n\n<br clear="right"/>\n</td>\n</tr>\n<tr>\n<td colspan="2" valign="top">\n\n### 🏗️ Enterprise Data Ingestion & Validation Framework &nbsp;![Date](https://img.shields.io/badge/Aug%202026-1a0533?style=flat-square)\n\n> Hybrid batch + streaming ingestion framework with SQL-pushdown validation and automated monitoring\n\n![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)\n![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)\n![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)\n![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)\n![SQL](https://img.shields.io/badge/SQL_Pushdown-336791?style=flat-square&logo=postgresql&logoColor=white)\n\n- 🔀 Hybrid **batch + streaming** ingestion using Airflow & Kafka\n- ✅ **SQL-pushdown validation** — checks run inside PostgreSQL, not in Python memory\n- 📡 Automated monitoring for pipeline health & data quality\n- ⚡ **36× reduction in memory usage**\n\n</td>\n</tr>\n</table>\n\n<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>\n\n## 💼 Experience\n\n<div align="center">\n\n### 🟣 &nbsp;Prodigy Infotech &nbsp;—&nbsp; ![Role](https://img.shields.io/badge/Software%20Dev%20Intern-7c3aed?style=for-the-badge) &nbsp; ![Date](https://img.shields.io/badge/Jul–Aug%202025-1a0533?style=flat-square)\n\n![](https://img.shields.io/badge/✔%20Scalable%20UI%20Modules-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%2010+%20Bug%20Fixes-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20CI%2FCD%20Deployments-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20Git%20Version%20Control-0f172a?style=flat-square)\n\n### 🔵 &nbsp;Codtech IT Solutions &nbsp;—&nbsp; ![Role](https://img.shields.io/badge/Web%20Dev%20Intern-0ea5e9?style=for-the-badge) &nbsp; ![Date](https://img.shields.io/badge/2024–2025-0c4a6e?style=flat-square)\n\n![](https://img.shields.io/badge/✔%203+%20Responsive%20Pages-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20RESTful%20API%20Integration-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20Git%20Branching%20Workflows-0f172a?style=flat-square)\n\n### 🟠 &nbsp;Codsoft IT Solutions &nbsp;—&nbsp; ![Role](https://img.shields.io/badge/Java%20Programming%20Intern-f97316?style=for-the-badge) &nbsp; ![Date](https://img.shields.io/badge/Jan–Feb%202025-7c2d12?style=flat-square)\n\n![](https://img.shields.io/badge/✔%205+%20OOP%20%26%20DSA%20Programs-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20Reusable%20Module%20Refactoring-0f172a?style=flat-square)\n![](https://img.shields.io/badge/✔%20Code%20Review%20%26%20Optimization-0f172a?style=flat-square)\n\n<img src="assets/divider.svg" width="100%" alt="" />\n\n</div>\n\n## 🏆 Certifications\n\n| 🎖️ Certificate | 🏫 Issuer | 🛠️ Topics |\n|:---|:---:|:---|\n| Front End Web Developer | ![Infosys](https://img.shields.io/badge/Infosys-007CC3?style=flat-square&logo=infosys&logoColor=white) | HTML · CSS · JS · Responsive Design |\n| Basics of MongoDB | ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) | NoSQL · Collections · Queries |\n| OCI AI Foundations | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) | Cloud Infrastructure · AI Services |\n| Intro to Large Language Models | ![Google](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | LLM Concepts · Prompt Engineering |\n| Intro to Generative AI | ![Google](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | GenAI · Foundation Models |\n\n<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>\n\n## 📊 GitHub Stats\n\n<div align="center">\n\n<img src="https://github-readme-stats.vercel.app/api?username=Arun597134&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" height="180"/>\n&nbsp;\n<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun597134&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="180"/>\n\n<br/>\n\n<img src="https://streak-stats.demolab.com?user=Arun597134&theme=tokyonight&hide_border=true" />\n\n<br/>\n\n<img src="https://github-profile-trophy.vercel.app/?username=Arun597134&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />\n\n</div>\n\n<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>\n\n## 📈 Contribution Graph\n\n<div align="center">\n\n<!-- 🐍 Snake eats your contributions. Generated by .github/workflows/snake.yml -->\n<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-snake-dark.svg" />\n  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-snake.svg" />\n  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-snake-dark.svg" width="100%" />\n</picture>\n\n<br/><br/>\n\n<a href="https://github.com/Arun597134"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Arun597134&bg_color=0D0D1A&color=A855F7&line=7C3AED&point=38BDF8&area_color=7C3AED&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Activity Graph" width="100%" /></a>\n\n</div>\n\n<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>\n\n<div align="center">\n\n### *Let\'s connect and build something impactful!*\n\n[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arunvijay-5a2845317)\n[![Portfolio](https://img.shields.io/badge/View_Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://arunmportfolioin.netlify.app)\n[![Email](https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arun.m.dev06@gmail.com)\n\n<br/>\n\n### 😂 Me waiting for my PR to get approved...\n\n<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="320px"/>\n\n<br/>\n\n### 🐛 Also me after fixing one bug and creating three more...\n\n<img src="https://media.giphy.com/media/RH1IFq2GT0Oau8NRWX/giphy.gif" width="320px"/>\n\n<br/><br/>\n\n> *"It works on my machine"* — Arun M, probably 🤷\u200d♂️\n\n<br/>\n\n<img src="assets/divider.svg" width="100%" alt="" />\n\n</div>\n'
-FILES['.github/workflows/snake.yml'] = 'name: Generate Contribution Snake\n\non:\n  schedule:\n    - cron: "0 */12 * * *"\n  workflow_dispatch:\n  push:\n    branches:\n      - main\n\npermissions:\n  contents: write\n\njobs:\n  generate:\n    runs-on: ubuntu-latest\n    timeout-minutes: 10\n    steps:\n      - name: Generate snake from contribution graph\n        uses: Platane/snk/svg-only@v3\n        with:\n          github_user_name: ${{ github.repository_owner }}\n          outputs: |\n            dist/github-snake.svg\n            dist/github-snake-dark.svg?palette=github-dark\n\n      - name: Push to output branch\n        uses: crazy-max/ghaction-github-pages@v3.1.0\n        with:\n          target_branch: output\n          build_dir: dist\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n'
-FILES['assets/header.svg'] = '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">\n  <defs>\n    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">\n      <stop offset="0" stop-color="#0D0D1A"/>\n      <stop offset="0.35" stop-color="#1a0533"/>\n      <stop offset="0.7" stop-color="#0d1b4b"/>\n      <stop offset="1" stop-color="#0D0D1A"/>\n    </linearGradient>\n    <linearGradient id="txt" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0">\n      <stop offset="0" stop-color="#a855f7"/>\n      <stop offset="0.5" stop-color="#38bdf8"/>\n      <stop offset="1" stop-color="#a855f7"/>\n      <animateTransform attributeName="gradientTransform" type="translate" from="-500 0" to="500 0" dur="5s" repeatCount="indefinite"/>\n    </linearGradient>\n    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">\n      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>\n      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.35"/>\n    </linearGradient>\n    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">\n      <stop offset="0" stop-color="#a855f7" stop-opacity="0.45"/>\n      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>\n    </radialGradient>\n    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>\n  </defs>\n\n  <rect width="1000" height="260" fill="url(#bg)"/>\n\n  <!-- pulsing glow orbs -->\n  <circle cx="200" cy="90" r="140" fill="url(#glow)">\n    <animate attributeName="r" values="120;170;120" dur="6s" repeatCount="indefinite"/>\n  </circle>\n  <circle cx="820" cy="150" r="150" fill="url(#glow)">\n    <animate attributeName="r" values="160;110;160" dur="7s" repeatCount="indefinite"/>\n  </circle>\n\n  <!-- twinkling stars -->\n  <g fill="#ffffff">\n    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.1s" repeatCount="indefinite"/></circle>\n    <circle cx="150" cy="190" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="3s" repeatCount="indefinite"/></circle>\n    <circle cx="260" cy="30" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>\n    <circle cx="380" cy="215" r="1.3"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.4s" repeatCount="indefinite"/></circle>\n    <circle cx="470" cy="25" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.3s" repeatCount="indefinite"/></circle>\n    <circle cx="590" cy="200" r="1.7"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>\n    <circle cx="700" cy="45" r="1.4"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/></circle>\n    <circle cx="790" cy="225" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="3.2s" repeatCount="indefinite"/></circle>\n    <circle cx="880" cy="35" r="1.9"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.0s" repeatCount="indefinite"/></circle>\n    <circle cx="950" cy="120" r="1.3"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.6s" repeatCount="indefinite"/></circle>\n    <circle cx="30" cy="130" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>\n  </g>\n\n  <!-- floating code symbols -->\n  <g font-family="\'Courier New\',monospace" font-size="22" fill="#a855f7" opacity="0.5">\n    <text x="90" y="120">&lt;/&gt;<animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="4s" repeatCount="indefinite"/></text>\n    <text x="880" y="90">{ }<animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="5s" repeatCount="indefinite"/></text>\n    <text x="760" y="200" fill="#38bdf8">AI<animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4.5s" repeatCount="indefinite"/></text>\n    <text x="140" y="210" fill="#38bdf8">01<animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="3.8s" repeatCount="indefinite"/></text>\n  </g>\n\n  <!-- name -->\n  <text x="500" y="125" text-anchor="middle" font-family="\'Segoe UI\',Verdana,sans-serif" font-size="82" font-weight="800" fill="url(#txt)" letter-spacing="2">Arun M\n    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>\n  </text>\n\n  <!-- subtitle -->\n  <text x="500" y="168" text-anchor="middle" font-family="\'Segoe UI\',Verdana,sans-serif" font-size="24" fill="#e2e8f0" letter-spacing="3">Full Stack Developer  |  AI / ML Engineer\n    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="2s" fill="freeze"/>\n  </text>\n\n  <!-- underline sweep -->\n  <rect x="380" y="182" width="240" height="3" rx="1.5" fill="#a855f7">\n    <animate attributeName="width" values="0;240;240" keyTimes="0;0.5;1" dur="2.5s" fill="freeze"/>\n    <animate attributeName="x" values="500;380;380" keyTimes="0;0.5;1" dur="2.5s" fill="freeze"/>\n  </rect>\n\n  <!-- waves -->\n  <path fill="url(#wave1)" d="M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z">\n    <animate attributeName="d" dur="7s" repeatCount="indefinite"\n      values="M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z;\n              M0 225 C150 250 300 190 500 225 C700 250 850 190 1000 225 L1000 260 L0 260 Z;\n              M0 220 C150 190 300 250 500 220 C700 190 850 250 1000 220 L1000 260 L0 260 Z"/>\n  </path>\n  <path fill="#7c3aed" fill-opacity="0.3" d="M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z">\n    <animate attributeName="d" dur="5s" repeatCount="indefinite"\n      values="M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z;\n              M0 238 C200 255 350 215 500 238 C650 255 800 215 1000 238 L1000 260 L0 260 Z;\n              M0 235 C200 215 350 255 500 235 C650 215 800 255 1000 235 L1000 260 L0 260 Z"/>\n  </path>\n</svg>\n'
-FILES['assets/marquee.svg'] = '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70">\n  <defs>\n    <clipPath id="c"><rect width="1000" height="70" rx="12"/></clipPath>\n    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">\n      <stop offset="0" stop-color="#0D0D1A" stop-opacity="1"/>\n      <stop offset="0.08" stop-color="#0D0D1A" stop-opacity="0"/>\n      <stop offset="0.92" stop-color="#0D0D1A" stop-opacity="0"/>\n      <stop offset="1" stop-color="#0D0D1A" stop-opacity="1"/>\n    </linearGradient>\n  </defs>\n  <g clip-path="url(#c)">\n    <rect width="1000" height="70" fill="#0D0D1A"/>\n    <g font-family="\'Segoe UI\',Verdana,sans-serif" font-size="15" font-weight="700" text-anchor="middle">\n      <g>\n        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1560 0" dur="28s" repeatCount="indefinite"/>\n        <!-- set 1 (13 pills x 120 = 1560) -->\n        <g id="set">\n          <rect x="10" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="65" y="40" fill="#e9d5ff">Python</text>\n          <rect x="130" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="185" y="40" fill="#e9d5ff">JavaScript</text>\n          <rect x="250" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="305" y="40" fill="#e9d5ff">Java</text>\n          <rect x="370" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="425" y="40" fill="#bae6fd">React</text>\n          <rect x="490" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="545" y="40" fill="#bae6fd">Node.js</text>\n          <rect x="610" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="665" y="40" fill="#bae6fd">Express</text>\n          <rect x="730" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="785" y="40" fill="#bae6fd">MongoDB</text>\n          <rect x="850" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="905" y="40" fill="#e9d5ff">TensorFlow</text>\n          <rect x="970" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="1025" y="40" fill="#e9d5ff">scikit-learn</text>\n          <rect x="1090" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1145" y="40" fill="#bae6fd">Redux</text>\n          <rect x="1210" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1265" y="40" fill="#bae6fd">Tailwind</text>\n          <rect x="1330" y="18" width="110" height="34" rx="17" fill="#1a0533" stroke="#a855f7"/><text x="1385" y="40" fill="#e9d5ff">Flask</text>\n          <rect x="1450" y="18" width="110" height="34" rx="17" fill="#0c2a4a" stroke="#38bdf8"/><text x="1505" y="40" fill="#bae6fd">Git</text>\n        </g>\n        <use href="#set" x="1560"/>\n      </g>\n    </g>\n    <rect width="1000" height="70" fill="url(#fade)"/>\n  </g>\n</svg>\n'
-FILES['assets/divider.svg'] = '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="24" viewBox="0 0 1000 24">\n  <defs>\n    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">\n      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>\n      <stop offset="0.5" stop-color="#a855f7"/>\n      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>\n    </linearGradient>\n  </defs>\n  <rect x="50" y="11" width="900" height="2" fill="url(#d)"/>\n  <circle cy="12" r="5" fill="#38bdf8">\n    <animate attributeName="cx" values="50;950;50" dur="4s" repeatCount="indefinite"/>\n    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>\n  </circle>\n  <circle cy="12" r="10" fill="#38bdf8" opacity="0.2">\n    <animate attributeName="cx" values="50;950;50" dur="4s" repeatCount="indefinite"/>\n  </circle>\n</svg>\n'
+  /* ===== HERO ===== */
+  .hero{position:relative;text-align:center;padding:90px 20px 110px;overflow:hidden;
+    background:linear-gradient(135deg,var(--bg) 0%,var(--bg2) 35%,var(--bg3) 70%,var(--bg) 100%)}
+  .orb{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(168,85,247,.45),transparent 70%);animation:pulse 6s ease-in-out infinite}
+  .orb.a{width:340px;height:340px;left:8%;top:-40px}
+  .orb.b{width:380px;height:380px;right:6%;top:40px;animation-delay:-3s}
+  @keyframes pulse{0%,100%{transform:scale(.85);opacity:.7}50%{transform:scale(1.15);opacity:1}}
+  .star{position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;animation:twinkle 2.5s ease-in-out infinite}
+  @keyframes twinkle{0%,100%{opacity:.1}50%{opacity:1}}
+  .float{position:absolute;font-family:'Courier New',monospace;font-size:24px;color:var(--purple);opacity:.5;animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+  .name{position:relative;font-size:clamp(52px,11vw,104px);font-weight:800;letter-spacing:2px;
+    background:linear-gradient(90deg,var(--purple),var(--sky),var(--purple));background-size:200% auto;
+    -webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite,fadein 1.2s ease both}
+  @keyframes shine{to{background-position:200% center}}
+  @keyframes fadein{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+  .role{position:relative;font-size:clamp(16px,3vw,24px);letter-spacing:3px;color:var(--text);animation:fadein 1.6s .4s ease both}
+  .bar{position:relative;height:3px;width:0;margin:14px auto 0;background:var(--purple);border-radius:2px;animation:grow 1.5s .8s ease forwards}
+  @keyframes grow{to{width:240px}}
+  .typing{position:relative;margin-top:26px;font-family:'JetBrains Mono','Courier New',monospace;font-weight:700;font-size:clamp(14px,2.6vw,20px);color:var(--purple);min-height:30px}
+  .typing::after{content:'|';margin-left:2px;animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .wave{position:absolute;left:0;bottom:-1px;width:200%;height:70px;animation:slide 9s linear infinite}
+  .wave.w2{animation-duration:6s;opacity:.6;bottom:-8px}
+  @keyframes slide{to{transform:translateX(-50%)}}
 
-for path, content in FILES.items():
-    d = os.path.dirname(path)
-    if d:
-        os.makedirs(d, exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="\n") as fh:
-        fh.write(content)
-    print("created", path)
-print("Done! Now: git add . && git commit -m 'Update profile' && git push")
+  /* ===== BUTTONS / BADGES ===== */
+  .links{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:34px 0 10px}
+  .btn{padding:10px 20px;border-radius:8px;font-weight:700;font-size:14px;color:#fff;transition:.25s;box-shadow:0 0 0 rgba(168,85,247,0)}
+  .btn:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(168,85,247,.45)}
+  .li{background:#0077B5}.gh{background:#181717;border:1px solid #333}.pf{background:#00C7B7}.em{background:#D14836}
+  .pill{display:inline-block;padding:3px 11px;margin:3px 2px;border-radius:999px;font-size:12px;font-weight:600;background:var(--bg2);border:1px solid var(--border);color:#e9d5ff}
+  .pill.sky{background:#0c2a4a;border-color:var(--sky);color:#bae6fd}
+  .pill.green{background:#14532d;border-color:var(--green);color:#bbf7d0}
+  .center{text-align:center}
+
+  /* ===== DIVIDER ===== */
+  .divider{position:relative;height:2px;margin:46px 0;background:linear-gradient(90deg,transparent,var(--purple),var(--sky),transparent)}
+  .divider::after{content:'';position:absolute;top:-4px;width:10px;height:10px;border-radius:50%;background:var(--sky);box-shadow:0 0 14px var(--sky);animation:run 4s ease-in-out infinite alternate}
+  @keyframes run{from{left:0}to{left:calc(100% - 10px)}}
+
+  h2{font-size:28px;margin-bottom:22px;background:linear-gradient(90deg,var(--purple),var(--sky));-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block}
+  section{padding:0 0}
+  .reveal{opacity:0;transform:translateY(30px);transition:.8s}
+  .reveal.show{opacity:1;transform:none}
+
+  /* ===== ABOUT ===== */
+  .about{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;align-items:center}
+  .about p{margin-bottom:12px}
+  code{background:var(--bg2);border:1px solid var(--border);padding:2px 8px;border-radius:6px;color:var(--sky);font-size:14px}
+  .avatar{width:100%;max-width:280px;margin:auto;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font-size:96px;font-weight:800;
+    background:conic-gradient(from 0deg,var(--purple),var(--sky),var(--violet),var(--purple));animation:spin 8s linear infinite;position:relative}
+  .avatar span{position:absolute;inset:6px;border-radius:50%;background:var(--bg);display:grid;place-items:center;animation:spin 8s linear infinite reverse}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ===== MARQUEE ===== */
+  .marquee{overflow:hidden;border-radius:12px;background:#0b0b18;padding:14px 0;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .track{display:flex;gap:12px;width:max-content;animation:marq 28s linear infinite}
+  .marquee:hover .track{animation-play-state:paused}
+  @keyframes marq{to{transform:translateX(-50%)}}
+  .chip{padding:8px 22px;border-radius:999px;font-weight:700;font-size:14px;white-space:nowrap;border:1px solid var(--purple);background:var(--bg2);color:#e9d5ff}
+  .chip.s{border-color:var(--sky);background:#0c2a4a;color:#bae6fd}
+
+  /* ===== PROJECTS ===== */
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;backdrop-filter:blur(6px);transition:.3s;position:relative;overflow:hidden}
+  .card::before{content:'';position:absolute;inset:-2px;background:conic-gradient(from 0deg,transparent,var(--purple),transparent 30%);opacity:0;transition:.4s;z-index:0;animation:spin 5s linear infinite}
+  .card:hover::before{opacity:.25}
+  .card>*{position:relative;z-index:1}
+  .card:hover{transform:translateY(-6px);border-color:var(--purple);box-shadow:0 14px 40px rgba(124,58,237,.3)}
+  .card.full{grid-column:1/-1}
+  .card h3{font-size:20px;margin-bottom:6px}
+  .card h3 a:hover{color:var(--sky)}
+  .card .desc{color:var(--muted);font-style:italic;margin-bottom:10px}
+  .card ul{list-style:none;margin-top:10px}
+  .card li{padding:3px 0}
+  .card h4{margin:14px 0 4px;color:var(--sky);font-size:15px}
+  .tag{float:right;font-size:12px;padding:3px 10px;border-radius:999px;background:var(--violet);color:#fff}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+
+  /* ===== TIMELINE ===== */
+  .timeline{position:relative;padding-left:30px;border-left:2px solid var(--border)}
+  .job{position:relative;margin-bottom:28px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 22px;transition:.3s}
+  .job:hover{transform:translateX(8px);border-color:var(--sky)}
+  .job::before{content:'';position:absolute;left:-39px;top:24px;width:14px;height:14px;border-radius:50%;background:var(--c,var(--purple));box-shadow:0 0 0 0 var(--c,var(--purple));animation:ping 2s infinite}
+  @keyframes ping{70%{box-shadow:0 0 0 12px transparent}100%{box-shadow:0 0 0 0 transparent}}
+  .job h3{font-size:18px}.job .date{color:var(--muted);font-size:13px;margin-bottom:6px}
+
+  /* ===== TABLE ===== */
+  table{width:100%;border-collapse:collapse;background:var(--card);border-radius:14px;overflow:hidden;border:1px solid var(--border)}
+  th,td{padding:12px 16px;text-align:left;border-bottom:1px solid rgba(168,85,247,.15)}
+  th{background:var(--bg2);color:var(--sky)}
+  tr:hover td{background:rgba(124,58,237,.12)}
+
+  /* ===== STATS ===== */
+  .stats{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center}
+  .stats img{max-width:100%;border-radius:12px}
+  .snake{width:100%;border-radius:14px;background:var(--card);border:1px solid var(--border);padding:12px}
+
+  footer{text-align:center;padding:60px 20px 80px;color:var(--muted)}
+  footer blockquote{margin:20px 0;font-style:italic}
+
+  @media(max-width:760px){
+    .about,.grid,.cols{grid-template-columns:1fr}
+    .float{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="hero">
+  <div class="orb a"></div><div class="orb b"></div>
+  <span class="float" style="left:8%;top:35%">&lt;/&gt;</span>
+  <span class="float" style="right:9%;top:28%;animation-delay:-1s;color:var(--sky)">{ }</span>
+  <span class="float" style="right:20%;bottom:20%;animation-delay:-2s;color:var(--sky)">AI</span>
+  <span class="float" style="left:16%;bottom:22%;animation-delay:-1.5s;color:var(--sky)">01</span>
+
+  <h1 class="name">Arun M</h1>
+  <p class="role">Full Stack Developer &nbsp;|&nbsp; AI / ML Engineer</p>
+  <div class="bar"></div>
+  <p class="typing" id="typing"></p>
+
+  <div class="links">
+    <a class="btn li" href="https://linkedin.com/in/arunvijay-5a2845317" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn gh" href="https://github.com/Arun597134" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn pf" href="https://arunmportfolioin.netlify.app" target="_blank" rel="noopener">Portfolio</a>
+    <a class="btn em" href="mailto:arun.m.dev06@gmail.com">Email</a>
+  </div>
+
+  <svg class="wave" viewBox="0 0 2000 70" preserveAspectRatio="none"><path fill="#7c3aed" fill-opacity=".45" d="M0 35 C250 0 500 70 750 35 S1250 0 1500 35 S1750 70 2000 35 L2000 70 L0 70Z"/></svg>
+  <svg class="wave w2" viewBox="0 0 2000 70" preserveAspectRatio="none"><path fill="#0D0D1A" d="M0 45 C300 15 500 70 1000 45 S1700 15 2000 45 L2000 70 L0 70Z"/></svg>
+</header>
+
+<main class="wrap">
+
+  <!-- ================= ABOUT ================= -->
+  <section class="reveal" style="margin-top:50px">
+    <h2>🧠 About Me</h2>
+    <div class="about">
+      <div>
+        <p>👋 Hey! I'm <b>Arun M</b> — a passionate <b>Full Stack Developer</b> and <b>AI/ML Engineer</b> from Chennai, India 🇮🇳</p>
+        <p>🎓 Pursuing <b>B.Tech in AI &amp; Data Science</b> at St. Joseph's Institute of Technology &nbsp;<code>CGPA: 8.21 / 10</code></p>
+        <p>🚀 Currently building a <b>MERN Learning Management System</b> with role-based access &amp; AI integration</p>
+        <p>🤖 I love crafting intelligent systems — from NLP pipelines to real-time proctoring engines</p>
+        <p>💡 Fun fact: <i>I make machines learn so I don't have to!</i></p>
+        <div style="margin-top:12px">
+          <span class="pill">👤 Arun M</span><span class="pill">💼 Full Stack | AI/ML</span><span class="pill">📍 Chennai, India</span>
+          <span class="pill">🎓 CGPA 8.21 / 10</span><span class="pill">🔨 Building MERN LMS</span><span class="pill green">✅ Open To Opportunities</span>
+        </div>
+      </div>
+      <div class="avatar"><span>AM</span></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= TECH ================= -->
+  <section class="reveal">
+    <h2>🛠️ Tech Arsenal</h2>
+    <div class="marquee"><div class="track" id="track"></div></div>
+    <div class="center" style="margin-top:18px">
+      <span class="pill sky">Redux Toolkit</span><span class="pill sky">JWT</span><span class="pill sky">Pandas</span><span class="pill sky">NumPy</span>
+      <span class="pill sky">Cloudinary</span><span class="pill sky">Oracle Cloud</span><span class="pill sky">Render</span><span class="pill sky">TensorFlow.js</span>
+      <span class="pill sky">PostgreSQL</span><span class="pill sky">Airflow</span><span class="pill sky">Kafka</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="reveal">
+    <h2>🚀 Featured Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>🤖 <a href="https://github.com/Arun597134/Hirewise-AI" target="_blank" rel="noopener">HireWise AI — Mock Interviewer</a></h3>
+        <p class="desc">AI-powered interview simulator with NLP resume parsing</p>
+        <span class="pill">Python</span><span class="pill">NLP</span><span class="pill">scikit-learn</span><span class="pill">Tkinter</span>
+        <ul><li>📄 NLP resume parsing &amp; keyword extraction</li><li>❓ 20+ tailored questions per session</li><li>📈 <b>40% boost</b> in question relevance</li><li>🔄 End-to-end automated interview flow</li></ul>
+      </div>
+
+      <div class="card">
+        <h3>🎓 <a href="https://github.com/arunvijay/assessment-platform" target="_blank" rel="noopener">AI Assessment Platform</a></h3>
+        <p class="desc">Full-stack exam platform with AI proctoring</p>
+        <span class="pill sky">React</span><span class="pill sky">Node.js</span><span class="pill sky">MongoDB</span><span class="pill">TF.js</span>
+        <ul><li>📷 Webcam proctoring via TensorFlow.js</li><li>🚫 Tab-switch tracking &amp; fullscreen lock</li><li>📊 Real-time integrity scores</li><li>🏆 Leaderboard &amp; analytics dashboard</li></ul>
+      </div>
+
+      <div class="card full">
+        <span class="tag">In Development 🔨</span>
+        <h3>📚 MERN Learning Management System</h3>
+        <p class="desc">Full-stack LMS with role-based access and AI-proxied ML services</p>
+        <span class="pill sky">React</span><span class="pill sky">Redux</span><span class="pill sky">Node.js</span><span class="pill sky">MongoDB</span><span class="pill">JWT</span><span class="pill sky">Tailwind</span>
+        <ul><li>🔐 JWT auth + bcrypt + refresh token sessions</li><li>👥 Roles: <b>Student</b>, <b>Instructor</b>, <b>Admin</b></li><li>📹 Per-session video progress tracking</li><li>🔍 Search, domain filtering &amp; paginated listings</li><li>📝 Timestamped notes &amp; session bookmarks</li><li>🤖 AI/ML services proxied through backend</li></ul>
+      </div>
+
+      <div class="card full">
+        <h3>🏛️ <a href="https://github.com/Arun597134/" target="_blank" rel="noopener">CivicFlow — AI Civic Complaint Platform</a></h3>
+        <p class="desc">AI-powered municipal complaint management platform for Tamil Nadu citizens &amp; administrators</p>
+        <span class="pill sky">React/Vite</span><span class="pill">Flask</span><span class="pill">Python</span><span class="pill">SQLite</span><span class="pill">JWT</span><span class="pill">scikit-learn</span>
+        <div class="cols">
+          <div><h4>🤖 AI &amp; ML Core</h4><ul><li>👁️ AI Vision parses complaint images → auto-routes to dept</li><li>⏱️ ML delay prediction from category + history</li><li>💰 Anti-corruption cost estimate capped at ₹500</li></ul></div>
+          <div><h4>🗺️ Hyper-Local Ops</h4><ul><li>📍 All <b>38 TN districts</b> down to town/village</li><li>🚗 Ola-style live officer assignment dashboard</li><li>📡 Citizens track officer &amp; status live</li></ul></div>
+          <div><h4>🌍 Citizen Empowerment</h4><ul><li>🌐 Tamil localization via translation widget</li><li>✅ Full CRUD on own complaints</li><li>🔐 Separate JWT portals for Citizens &amp; Admins</li></ul></div>
+        </div>
+      </div>
+
+      <div class="card full">
+        <span class="tag">Aug 2026</span>
+        <h3>🏗️ Enterprise Data Ingestion &amp; Validation Framework</h3>
+        <p class="desc">Hybrid batch + streaming ingestion framework with SQL-pushdown validation and automated monitoring</p>
+        <span class="pill">Python</span><span class="pill sky">PostgreSQL</span><span class="pill sky">Airflow</span><span class="pill">Kafka</span><span class="pill">SQL Pushdown</span>
+        <ul><li>🔀 Hybrid <b>batch + streaming</b> ingestion using Airflow &amp; Kafka</li><li>✅ <b>SQL-pushdown validation</b> — checks run inside PostgreSQL, not in Python memory</li><li>📡 Automated monitoring for pipeline health &amp; data quality</li><li>⚡ <b>36× reduction in memory usage</b></li></ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="reveal">
+    <h2>💼 Experience</h2>
+    <div class="timeline">
+      <div class="job" style="--c:#7c3aed">
+        <h3>🟣 Prodigy Infotech — Software Dev Intern</h3><div class="date">Jul – Aug 2025</div>
+        <span class="pill">✔ Scalable UI Modules</span><span class="pill">✔ 10+ Bug Fixes</span><span class="pill">✔ CI/CD Deployments</span><span class="pill">✔ Git Version Control</span>
+      </div>
+      <div class="job" style="--c:#0ea5e9">
+        <h3>🔵 Codtech IT Solutions — Web Dev Intern</h3><div class="date">2024 – 2025</div>
+        <span class="pill sky">✔ 3+ Responsive Pages</span><span class="pill sky">✔ RESTful API Integration</span><span class="pill sky">✔ Git Branching Workflows</span>
+      </div>
+      <div class="job" style="--c:#f97316">
+        <h3>🟠 Codsoft IT Solutions — Java Programming Intern</h3><div class="date">Jan – Feb 2025</div>
+        <span class="pill">✔ 5+ OOP &amp; DSA Programs</span><span class="pill">✔ Reusable Module Refactoring</span><span class="pill">✔ Code Review &amp; Optimization</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= CERTS ================= -->
+  <section class="reveal">
+    <h2>🏆 Certifications</h2>
+    <table>
+      <tr><th>🎖️ Certificate</th><th>🏫 Issuer</th><th>🛠️ Topics</th></tr>
+      <tr><td>Front End Web Developer</td><td>Infosys</td><td>HTML · CSS · JS · Responsive Design</td></tr>
+      <tr><td>Basics of MongoDB</td><td>MongoDB</td><td>NoSQL · Collections · Queries</td></tr>
+      <tr><td>OCI AI Foundations</td><td>Oracle</td><td>Cloud Infrastructure · AI Services</td></tr>
+      <tr><td>Intro to Large Language Models</td><td>Google Cloud</td><td>LLM Concepts · Prompt Engineering</td></tr>
+      <tr><td>Intro to Generative AI</td><td>Google Cloud</td><td>GenAI · Foundation Models</td></tr>
+    </table>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= STATS ================= -->
+  <section class="reveal">
+    <h2>📊 GitHub Stats</h2>
+    <div class="stats">
+      <img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Arun597134&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+      <img height="180" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun597134&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+      <img alt="Streak" src="https://streak-stats.demolab.com?user=Arun597134&theme=tokyonight&hide_border=true" />
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ================= CONTRIBUTIONS ================= -->
+  <section class="reveal">
+    <h2>📈 Contribution Graph</h2>
+    <div class="snake center">
+      <img style="max-width:100%" alt="Contribution calendar" src="https://ghchart.rshah.org/7c3aed/Arun597134" />
+    </div>
+    <div class="snake center" style="margin-top:16px">
+      <img style="max-width:100%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Arun597134&bg_color=0D0D1A&color=A855F7&line=7C3AED&point=38BDF8&area_color=7C3AED&area=true&hide_border=true&custom_title=Contribution%20Activity" />
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <h3 style="color:var(--text)">Let's connect and build something impactful!</h3>
+  <div class="links">
+    <a class="btn li" href="https://linkedin.com/in/arunvijay-5a2845317" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    <a class="btn pf" href="https://arunmportfolioin.netlify.app" target="_blank" rel="noopener">View Portfolio</a>
+    <a class="btn em" href="mailto:arun.m.dev06@gmail.com">Send Email</a>
+  </div>
+  <blockquote>"It works on my machine" — Arun M, probably 🤷‍♂️</blockquote>
+</footer>
+
+<script>
+  // Typing effect
+  (function(){
+    var lines=["🚀 Building Scalable Web Applications","🤖 Engineering Intelligent AI/ML Systems","⚡ React | Node.js | MongoDB | Python","🔮 Turning Data into Smart Solutions"];
+    var el=document.getElementById('typing'),l=0,c=0,del=false;
+    function tick(){
+      var t=lines[l];
+      el.textContent=t.slice(0,c);
+      if(!del&&c<t.length){c++;setTimeout(tick,70)}
+      else if(!del){del=true;setTimeout(tick,1400)}
+      else if(c>0){c--;setTimeout(tick,35)}
+      else{del=false;l=(l+1)%lines.length;setTimeout(tick,300)}
+    }
+    tick();
+  })();
+
+  // Stars
+  (function(){
+    var hero=document.getElementById('hero');
+    for(var i=0;i<40;i++){
+      var s=document.createElement('span');s.className='star';
+      s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';
+      s.style.animationDelay=(Math.random()*3)+'s';s.style.animationDuration=(2+Math.random()*2)+'s';
+      hero.appendChild(s);
+    }
+  })();
+
+  // Skills marquee (duplicated for seamless loop)
+  (function(){
+    var skills=["Python","JavaScript","Java","React","Node.js","Express","MongoDB","TensorFlow","scikit-learn","Redux","Tailwind","Flask","PostgreSQL","Airflow","Kafka","Git"];
+    var html='';
+    for(var r=0;r<2;r++){skills.forEach(function(s,i){html+='<span class="chip'+(i%2?' s':'')+'">'+s+'</span>'})}
+    document.getElementById('track').innerHTML=html;
+  })();
+
+  // Scroll reveal
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('show')});return}
+    var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('show');io.unobserve(x.target)}})},{threshold:.12});
+    els.forEach(function(e){io.observe(e)});
+  })();
+</script>
+</body>
+</html>
