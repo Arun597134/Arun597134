@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="1000" height="30">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <path id="l" d="M0 15 H1000" stroke="#39ff6a" stroke-width="2" stroke-dasharray="14 8" fill="none" filter="url(#g)">
+    <animate attributeName="stroke-dashoffset" to="-220" dur="3s" repeatCount="indefinite"/></path>
+  <g fill="#d97a1e"><circle cx="100" cy="15" r="4"/><circle cx="300" cy="15" r="4"/><circle cx="500" cy="15" r="6"/><circle cx="700" cy="15" r="4"/><circle cx="900" cy="15" r="4"/></g>
+  <circle r="5" fill="#eaffee" filter="url(#g)" cy="15"><animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

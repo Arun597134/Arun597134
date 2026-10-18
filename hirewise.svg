@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="p" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#39ff6a" stroke-opacity=".08"/></pattern></defs>
+  <style>.m{font-family:'Courier New',monospace}.bl{animation:b 1s steps(2) infinite}@keyframes b{50%{opacity:0}}
+  .w{fill:none;stroke:#39ff6a;stroke-width:2;stroke-dasharray:10 8;animation:f 3s linear infinite;filter:url(#g)}@keyframes f{to{stroke-dashoffset:-180}}</style>
+  <rect width="800" height="400" rx="12" fill="#0a0d0a" stroke="#39ff6a" stroke-width="2"/>
+  <rect width="800" height="400" rx="12" fill="url(#p)"/>
+  <path class="w" d="M20 340 C250 300 500 380 780 330"/><path class="w" style="animation-duration:5s;opacity:.5" d="M20 60 C250 100 500 20 780 70"/>
+  <rect y="0" width="800" height="3" fill="#39ff6a" opacity=".15"><animate attributeName="y" values="0;400" dur="4s" repeatCount="indefinite"/></rect>
+  <circle cx="400" cy="170" r="42" fill="none" stroke="#d97a1e" stroke-width="3"/>
+  <path d="M388 150 L424 170 L388 190Z" fill="#d97a1e"/>
+  <text x="400" y="250" text-anchor="middle" class="m" font-size="22" fill="#e8d8b0" font-weight="bold">HIREWISE // CASE FILE 002</text>
+  <text x="400" y="280" text-anchor="middle" class="m" font-size="14" fill="#39ff6a">TIMELINE RECORDING — DEMO PENDING</text>
+  <text x="400" y="306" text-anchor="middle" class="m bl" font-size="12" fill="#d97a1e">replace with assets/demos/hirewise.gif</text>
+</svg>

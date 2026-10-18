@@ -1,158 +1,182 @@
 <div align="center">
 
-<img src="./assets/tva-multiverse-hero.gif" width="100%" alt="Animated TVA multiverse header with glowing green timeline wires and rotating time portal"/>
+<img src="assets/header.svg" alt="Time Variance Authority - Arun M" width="100%"/>
 
-<h2>⚡ WELCOME TO MY BRANCH OF THE MULTIVERSE ⚡</h2>
-<p><b>Final-year B.Tech Artificial Intelligence & Data Science</b><br/>Full Stack Developer · AI/ML Engineer · Problem Solver</p>
+<br/>
 
-<img src="https://img.shields.io/badge/TVA_VARIANT-ARUN--597134-00ff88?style=for-the-badge&labelColor=050b08"/>
-<img src="https://img.shields.io/badge/GLORIOUS_PURPOSE-IN_PROGRESS-ffbd4a?style=for-the-badge&labelColor=050b08"/>
+<img src="assets/minutes.svg" alt="Time-keeper guide" width="100%"/>
+
+<a href="https://github.com/Arun597134"><img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=22&duration=3000&pause=800&color=39FF6A&center=true&vCenter=true&width=800&lines=%3E+LOADING+VARIANT+FILE...;%3E+B.Tech+AI+%26+Data+Science+%7C+Class+of+2027;%3E+Full+Stack+%2B+AI%2FML+Engineer;%3E+%22I+am+burdened+with+glorious+purpose.%22;%3E+TIMELINE+STATUS%3A+BRANCHING+%E2%9C%94" alt="Typing SVG"/></a>
+
+<br/><br/>
+
+[![Email](https://img.shields.io/badge/EMAIL-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](mailto:arun.m.dev06@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-arunvijay-0b0f0c?style=for-the-badge&logo=linkedin&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://linkedin.com/in/arunvijay-5a2845317)
+[![GitHub](https://img.shields.io/badge/GITHUB-Arun597134-0b0f0c?style=for-the-badge&logo=github&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://github.com/Arun597134)
+
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
+
+## 📂 CASE FILE: ARUN M
+
+```diff
++ DESIGNATION   : Final-year B.Tech, Artificial Intelligence & Data Science
++ BASE OF OPS   : St. Joseph's Institute of Technology, Chennai (CGPA 8.21)
++ SPECIALITY    : Full Stack Development • AI/ML • REST APIs • DSA
++ TIMELINE SCAN : 2 internships • 3 shipped projects • 320+ LeetCode problems
++ AFFILIATION   : MyGov Campus Ambassador (Govt. of India, digital governance)
++ MENTORSHIP    : 2+ batches of 11th/12th students in AI/ML & Generative AI
+- THREAT LEVEL  : Dangerously productive. Pruning not recommended.
+```
+
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+
+## 🌌 THE MULTIVERSE: MY VARIANT BRANCHES
+
+<div align="center">
+<img src="assets/multiverse.svg" alt="Multiverse of projects" width="100%"/>
+</div>
+
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+
+## ⏳ CASE FILES: PROJECTS
+
+### 🟢 CASE 001: CivicFlow, AI Civic Complaint Platform `Jan 2026`
+
+<div align="center">
+<a href="https://github.com/Arun597134/CivicflowAI"><img src="assets/demos/civicflow.svg" alt="CivicFlow demo" width="80%"/></a>
+</div>
+
+A full-stack civic complaint platform covering **all 38 Tamil Nadu districts**. A **CNN-based image classifier** auto-categorizes and routes complaints, **cutting manual triage effort by 90%**. A **Random Forest** model predicts resolution timelines and flags repair quotes above Rs.500 as potential overcharges.
+
+![React](https://img.shields.io/badge/React.js-0b0f0c?style=flat-square&logo=react&logoColor=39ff6a)
+![Flask](https://img.shields.io/badge/Flask-0b0f0c?style=flat-square&logo=flask&logoColor=39ff6a)
+![SQLite](https://img.shields.io/badge/SQLite-0b0f0c?style=flat-square&logo=sqlite&logoColor=39ff6a)
+![TensorFlow](https://img.shields.io/badge/CNN-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
+![scikit-learn](https://img.shields.io/badge/Random_Forest-0b0f0c?style=flat-square&logo=scikitlearn&logoColor=39ff6a)
+
+🔗 [**Open case file →**](https://github.com/Arun597134/CivicflowAI)
 
 ---
 
+### 🟢 CASE 002: HireWise, AI Voice Mock Interviewer `Dec 2024`
+
 <div align="center">
-<img src="./assets/ms-minutes-timekeeper.gif" width="560" alt="Animated golden timekeeper clock mascot with moving time wires"/>
+<a href="https://github.com/AjayJ19/HireWise-AI"><img src="assets/demos/hirewise.svg" alt="HireWise demo" width="80%"/></a>
 </div>
 
-## `01 // VARIANT FILE`
+An AI-driven mock interview simulator that **parses resumes with PyMuPDF** and generates **role-specific questions** through the **Mistral AI API**. It includes **real-time speech-to-text and text-to-speech pipelines** for a fully hands-free interview experience.
 
-> *Every choice creates a branch. I'm here to build something worth remembering across the multiverse.*
+![Python](https://img.shields.io/badge/Python-0b0f0c?style=flat-square&logo=python&logoColor=39ff6a)
+![Mistral](https://img.shields.io/badge/Mistral_AI-0b0f0c?style=flat-square&logo=mistralai&logoColor=39ff6a)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0b0f0c?style=flat-square&logoColor=39ff6a)
+![STT/TTS](https://img.shields.io/badge/STT_%2F_TTS-0b0f0c?style=flat-square&logoColor=39ff6a)
 
-I'm Arun, a final-year **Artificial Intelligence and Data Science** student at St. Joseph's Institute of Technology, Chennai. I build full-stack products and AI-powered applications across civic-tech, EdTech, and developer tools.
+🔗 [**Open case file →**](https://github.com/AjayJ19/HireWise-AI)
 
-- 🎓 **Degree:** B.Tech — Artificial Intelligence & Data Science
-- 📍 **College:** St. Joseph's Institute of Technology, Chennai
-- 📊 **CGPA:** 8.21 / 10
-- 🧠 **Problem solving:** 320+ LeetCode problems
-- 🛠️ **Experience:** Software Development and Web Development internships
+---
 
-## `02 // TVA TECH ARCHIVES`
+### 🟢 CASE 003: AI Online Assessment Platform `Aug 2025`
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,java,js,react,flask,html,css,tensorflow,opencv,postgres,mongodb,docker,git,github,oracle&theme=dark" alt="Technology stack icons"/>
-
+<a href="https://github.com/Arun597134/AI-Exam-portal"><img src="assets/demos/exam-portal.svg" alt="Exam portal demo" width="80%"/></a>
 </div>
 
-**Languages:** Python · Java · SQL  
-**Web:** React.js · Flask · REST APIs · JWT · HTML · CSS · JavaScript  
-**AI/ML:** Machine Learning · Deep Learning · NLP · Computer Vision · TensorFlow · scikit-learn · Random Forest  
-**Data & DevOps:** PostgreSQL · MongoDB · SQLite · Pandas · NumPy · OpenCV · Docker · CI/CD · Oracle Cloud · Vercel · Render
+A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission and role-based access for admins and students. A **TensorFlow.js proctoring module** detects face absence and tab-switching, and it was **deployed to certify students in a college AI internship program**.
 
-## `03 // SIGNIFICANT TIMELINE BRANCHES`
+![MongoDB](https://img.shields.io/badge/MongoDB-0b0f0c?style=flat-square&logo=mongodb&logoColor=39ff6a)
+![Express](https://img.shields.io/badge/Express-0b0f0c?style=flat-square&logo=express&logoColor=39ff6a)
+![React](https://img.shields.io/badge/React-0b0f0c?style=flat-square&logo=react&logoColor=39ff6a)
+![Node](https://img.shields.io/badge/Node.js-0b0f0c?style=flat-square&logo=nodedotjs&logoColor=39ff6a)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+🔗 [**Open case file →**](https://github.com/Arun597134/AI-Exam-portal)
 
-### 🟢 CivicFlow AI
-**AI Civic Complaint Platform**
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
 
-- Full-stack platform for all 38 Tamil Nadu districts.
-- CNN image classification for complaint routing.
-- Reduced manual triage effort by 90%.
-- Random Forest estimates resolution timelines and flags repair quotes above ₹500.
+## 🕰️ TIMELINE LOG: EXPERIENCE
 
-[↗ View repository](https://github.com/Arun597134/CivicflowAI)
+| Period | Role | Mission Report |
+|:--|:--|:--|
+| `Jul 2025 – Aug 2025` | **Software Development Intern**, Prodigy Infotech (Remote) | Built a reusable **React component library** adopted across **3+ product feature areas**. Resolved **10+ production bugs** through a peer-reviewed CI/CD pipeline. |
+| `Oct 2024 – Jan 2025` | **Web Development Intern**, Codtech IT Solutions (Remote) | Shipped **3 responsive web pages** integrated with live backend APIs for a client-facing production product. |
 
-</td>
-<td width="50%" valign="top">
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
 
-### 🟠 HireWise
-**AI Voice Mock Interviewer**
-
-- Python + Mistral AI API.
-- Resume parsing with PyMuPDF.
-- Generates role-specific interview questions.
-- Real-time speech-to-text and text-to-speech.
-
-[↗ View repository](https://github.com/AjayJ19/HireWise-AI)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🟢 AI Online Assessment
-**MERN + TensorFlow.js**
-
-- AI-generated MCQs and timed auto-submission.
-- Role-based admin and student access.
-- Client-side proctoring detects face absence and tab switching.
-
-[↗ View repository](https://github.com/Arun597134/AI-Exam-portal)
-
-</td>
-<td width="50%" valign="top">
-
-### ⏱️ Current mission
-**Build. Learn. Iterate.**
-
-- Strengthen DSA and problem solving.
-- Ship practical AI-powered web products.
-- Explore reliable APIs, data systems, and deployment.
-
-</td>
-</tr>
-</table>
-
-## `04 // FIELD EXPERIENCE`
-
-**Prodigy Infotech — Software Development Intern** · *Jul 2025 – Aug 2025*
-- Built a reusable React component library used across 3+ product feature areas.
-- Resolved 10+ production bugs through a peer-reviewed CI/CD pipeline.
-
-**Codtech IT Solutions — Web Development Intern** · *Oct 2024 – Jan 2025*
-- Shipped 3 responsive web pages integrated with live backend APIs.
-
-## `05 // ACHIEVEMENT VAULT`
+## 🛠️ TVA ARSENAL: TECH STACK
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/LEETCODE-320%2B_SOLVED-00ff88?style=for-the-badge&labelColor=07110c"/>
-<img src="https://img.shields.io/badge/CERTIFICATIONS-9%2B-ffbd4a?style=for-the-badge&labelColor=07110c"/>
-<img src="https://img.shields.io/badge/MYGOV-CAMPUS_AMBASSADOR-00ff88?style=for-the-badge&labelColor=07110c"/>
+<img src="https://skillicons.dev/icons?i=py,java,js,html,css,react,nodejs,flask&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=mongodb,sqlite,postgres,tensorflow,sklearn,opencv,pandas,numpy&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vercel&theme=dark" />
 
 </div>
 
-- 🏅 Elite NPTEL certifications from IIT Madras in Python for Data Science and Database Management Systems.
-- 🌐 Selected as a MyGov Campus Ambassador for digital governance initiatives.
-- 🤝 Mentored 11th- and 12th-grade students in AI/ML and Generative AI.
+```yaml
+Languages    : Python, Java, SQL, JavaScript
+Web          : React.js, Flask, REST APIs, JWT Authentication, HTML, CSS3
+Databases    : MongoDB, SQLite, PostgreSQL
+AI / ML      : Machine Learning, Deep Learning, NLP, Computer Vision, TensorFlow, scikit-learn
+Cloud/DevOps : Git, GitHub, CI/CD, Docker, Oracle Cloud Infrastructure, Vercel, Render
+Data Tools   : Pandas, NumPy, OpenCV
+```
 
-## `06 // MULTIVERSE ACTIVITY MONITOR`
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+
+## 📊 TIMELINE ACTIVITY MONITOR
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arun597134&bg_color=050b08&color=9affc5&line=00ff88&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Arun597134&show_icons=true&hide_border=true&bg_color=0b0f0c&title_color=39ff6a&text_color=e8d8b0&icon_color=d97a1e&ring_color=39ff6a&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun597134&layout=compact&hide_border=true&bg_color=0b0f0c&title_color=39ff6a&text_color=e8d8b0" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=Arun597134&show_icons=true&hide_border=true&bg_color=050b08&title_color=00ff88&text_color=d7ffe5&icon_color=00ff88&include_all_commits=true" height="165" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun597134&layout=compact&hide_border=true&bg_color=050b08&title_color=00ff88&text_color=d7ffe5" height="165" alt="Top languages"/>
+<img src="https://streak-stats.demolab.com?user=Arun597134&hide_border=true&background=0b0f0c&ring=39ff6a&fire=d97a1e&currStreakLabel=39ff6a&currStreakNum=e8d8b0&sideLabels=e8d8b0&sideNums=e8d8b0&dates=8a8a6a&stroke=39ff6a" />
 
-<img src="https://streak-stats.demolab.com?user=Arun597134&hide_border=true&background=050b08&ring=00ff88&fire=ffbd4a&currStreakLabel=9affc5&sideLabels=d7ffe5&dates=7da88c&currStreakNum=ffffff&sideNums=ffffff" width="75%" alt="GitHub streak stats"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arun597134&bg_color=0b0f0c&color=39ff6a&line=39ff6a&point=d97a1e&area=true&area_color=39ff6a&hide_border=true&title_color=39ff6a" width="100%"/>
 
 </div>
 
-## `07 // CONTRIBUTION SNAKE`
+## 🐍 TEMPORAL SNAKE: CONTRIBUTIONS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated snake travelling through GitHub contribution graph"/>
+<img src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
 
 </div>
 
-## `08 // OPEN A PORTAL`
+<div align="center"><img src="assets/divider.svg" width="100%"/></div>
+
+## 🏆 ACHIEVEMENTS & CERTIFICATIONS
+
+- 🧩 Solved **320+ LeetCode** problems (arrays, strings, trees, graphs, DP)
+- 🇮🇳 Selected as **MyGov Campus Ambassador** for Govt. of India's digital governance initiatives
+- 🎓 **9+ certifications** by 2nd year, including **2 Elite NPTEL certs from IIT Madras**
+- 👨‍🏫 Mentored **2+ batches** of 11th/12th students on AI/ML & Generative AI
+
+| Certification | Issuer | Year |
+|:--|:--|:--|
+| Python for Data Science (Elite) | NPTEL, IIT Madras | 2025 |
+| Database Management Systems (Elite) | NPTEL, IIT Madras | 2026 |
+| Getting Started with Deep Learning | NVIDIA | 2026 |
+| Introduction to Generative AI | Google Cloud | 2025 |
+| OCI AI Foundations | Oracle University | 2025 |
+| Front End Web Development | Infosys Springboard | 2025 |
+| Basics of MongoDB | MongoDB University | 2025 |
 
 <div align="center">
 
-<a href="mailto:arun.m.dev06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-OPEN_A_PORTAL-00ff88?style=for-the-badge&logo=gmail&logoColor=07110c&labelColor=07110c"/></a>
-<a href="https://www.linkedin.com/in/arunvijay-5a2845317"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-ffbd4a?style=for-the-badge&logo=linkedin&logoColor=07110c&labelColor=07110c"/></a>
-<a href="https://github.com/Arun597134"><img src="https://img.shields.io/badge/GITHUB-EXPLORE_MY_WORK-00ff88?style=for-the-badge&logo=github&logoColor=07110c&labelColor=07110c"/></a>
+<img src="assets/divider.svg" width="100%"/>
 
-<br/><br/>
-**KEEP THE TIMELINE STABLE. KEEP BUILDING.**
-<br/>
-<sub>TVA-inspired fan aesthetic · Emerald timeline branches · Timekeeper animation · Multiverse telemetry</sub>
+### ✉️ OPEN A PORTAL TO ME
+
+**Looking for internships and full-time roles in Full Stack and AI/ML.**
+
+[![Email me](https://img.shields.io/badge/SEND_A_VARIANT_REQUEST-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](mailto:arun.m.dev06@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f0c,50:39ff6a,100:d97a1e&height=120&section=footer&text=For%20All%20Time.%20Always.&fontColor=0b0f0c&fontSize=24&animation=fadeIn" width="100%"/>
+
+<sub>Fan-made tribute theme. Not affiliated with Marvel or Disney.</sub>
 
 </div>

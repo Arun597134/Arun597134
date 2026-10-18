@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14100a"/><stop offset="1" stop-color="#050806"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d97a1e" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="type"><rect x="0" y="215" width="0" height="40">
+      <animate attributeName="width" values="0;1000;1000;0" keyTimes="0;0.45;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+  <style>
+    .w{fill:none;stroke:#39ff6a;stroke-width:2;stroke-dasharray:14 10;animation:flow 3s linear infinite;filter:url(#glow)}
+    .w2{animation-duration:5s;stroke-opacity:.55;stroke-width:1.4}
+    .p{fill:none;stroke:#b6ffc9;stroke-width:3;stroke-dasharray:50 950;animation:pulse 4s linear infinite;filter:url(#glow)}
+    @keyframes flow{to{stroke-dashoffset:-240}}
+    @keyframes pulse{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+    .m{font-family:'Courier New',monospace}
+    .blink{animation:bl 1.2s steps(2) infinite}
+    @keyframes bl{50%{opacity:0}}
+  </style>
+  <rect width="1000" height="320" fill="url(#bg)"/>
+  <rect width="1000" height="320" fill="url(#grid)"/>
+  <!-- timeline wires -->
+  <path class="w" d="M0 60 C250 20 350 120 600 70 S900 40 1000 80"/>
+  <path class="w w2" d="M0 260 C200 300 400 200 620 270 S880 290 1000 250"/>
+  <path class="w w2" d="M0 150 C150 120 300 190 500 140 S800 110 1000 170"/>
+  <path class="w" d="M0 295 C300 250 500 310 1000 285"/>
+  <path class="p" pathLength="1000" d="M0 60 C250 20 350 120 600 70 S900 40 1000 80"/>
+  <path class="p" pathLength="1000" style="animation-delay:-2s" d="M0 260 C200 300 400 200 620 270 S880 290 1000 250"/>
+  <!-- scanline -->
+  <rect x="0" y="0" width="1000" height="3" fill="#39ff6a" opacity="0.12">
+    <animate attributeName="y" values="0;320" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- corner brackets -->
+  <g stroke="#d97a1e" stroke-width="3" fill="none">
+    <path d="M20 50V20H50"/><path d="M950 20H980V50"/><path d="M20 270V300H50"/><path d="M980 270V300H950"/>
+  </g>
+  <text x="500" y="52" text-anchor="middle" class="m" font-size="14" letter-spacing="9" fill="#d97a1e">TIME VARIANCE AUTHORITY</text>
+  <text x="500" y="150" text-anchor="middle" class="m" font-size="84" font-weight="bold" fill="#e8d8b0" filter="url(#glow)">ARUN M</text>
+  <text x="500" y="186" text-anchor="middle" class="m" font-size="15" letter-spacing="5" fill="#39ff6a">VARIANT FILE No. 597134 // BRANCHING FROM THE SACRED TIMELINE</text>
+  <g clip-path="url(#type)">
+    <text x="500" y="240" text-anchor="middle" class="m" font-size="22" fill="#e8d8b0">AI &amp; DATA SCIENCE  ·  FULL STACK  ·  GLORIOUS PURPOSE</text>
+  </g>
+  <text x="40" y="312" class="m" font-size="12" fill="#d97a1e">STATUS: <tspan fill="#39ff6a" class="blink">● NEXUS EVENT ACTIVE</tspan></text>
+  <text x="960" y="312" text-anchor="end" class="m" font-size="12" fill="#d97a1e">PRUNING: DENIED</text>
+</svg>
