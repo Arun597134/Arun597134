@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="assets/header3d.svg" alt="Time Variance Authority - Arun M" width="100%"/>
+<img src="assets/header.gif" alt="Time Variance Authority - Arun M" width="100%"/>
 
 <br/>
 
-<img src="assets/minutes3d.svg" alt="Time-keeper guide" width="100%"/>
-
-<a href="https://github.com/Arun597134"><img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=22&duration=3000&pause=800&color=39FF6A&center=true&vCenter=true&width=800&lines=%3E+LOADING+VARIANT+FILE...;%3E+B.Tech+AI+%26+Data+Science+%7C+Class+of+2027;%3E+Full+Stack+%2B+AI%2FML+Engineer;%3E+%22I+am+burdened+with+glorious+purpose.%22;%3E+TIMELINE+STATUS%3A+BRANCHING+%E2%9C%94" alt="Typing SVG"/></a>
+<img src="assets/minutes.gif" alt="Time-keeper guide" width="100%"/>
 
 <br/><br/>
 
@@ -14,7 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-arunvijay-0b0f0c?style=for-the-badge&logo=linkedin&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://linkedin.com/in/arunvijay-5a2845317)
 [![GitHub](https://img.shields.io/badge/GITHUB-Arun597134-0b0f0c?style=for-the-badge&logo=github&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://github.com/Arun597134)
 
-<img src="assets/divider3d.svg" width="100%"/>
+<img src="assets/divider.gif" width="100%"/>
 
 </div>
 
@@ -30,22 +28,22 @@
 - THREAT LEVEL  : Dangerously productive. Pruning not recommended.
 ```
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## 🌌 THE MULTIVERSE: MY VARIANT BRANCHES
 
 <div align="center">
-<img src="assets/multiverse3d.svg" alt="Multiverse of projects" width="100%"/>
+<img src="assets/multiverse.gif" alt="Multiverse of projects" width="100%"/>
 </div>
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## ⏳ CASE FILES: PROJECTS
 
 ### 🟢 CASE 001: CivicFlow, AI Civic Complaint Platform `Jan 2026`
 
 <div align="center">
-<a href="https://github.com/Arun597134/CivicflowAI"><img src="assets/demos/civicflow.svg" alt="CivicFlow demo" width="80%"/></a>
+<a href="https://github.com/Arun597134/CivicflowAI"><img src="assets/demos/civicflow.gif" alt="CivicFlow demo" width="80%"/></a>
 </div>
 
 A full-stack civic complaint platform covering **all 38 Tamil Nadu districts**. A **CNN-based image classifier** auto-categorizes and routes complaints, **cutting manual triage effort by 90%**. A **Random Forest** model predicts resolution timelines and flags repair quotes above Rs.500 as potential overcharges.
@@ -63,7 +61,7 @@ A full-stack civic complaint platform covering **all 38 Tamil Nadu districts**. 
 ### 🟢 CASE 002: HireWise, AI Voice Mock Interviewer `Dec 2024`
 
 <div align="center">
-<a href="https://github.com/AjayJ19/HireWise-AI"><img src="assets/demos/hirewise.svg" alt="HireWise demo" width="80%"/></a>
+<a href="https://github.com/AjayJ19/HireWise-AI"><img src="assets/demos/hirewise.gif" alt="HireWise demo" width="80%"/></a>
 </div>
 
 An AI-driven mock interview simulator that **parses resumes with PyMuPDF** and generates **role-specific questions** through the **Mistral AI API**. It includes **real-time speech-to-text and text-to-speech pipelines** for a fully hands-free interview experience.
@@ -80,7 +78,7 @@ An AI-driven mock interview simulator that **parses resumes with PyMuPDF** and g
 ### 🟢 CASE 003: AI Online Assessment Platform `Aug 2025`
 
 <div align="center">
-<a href="https://github.com/Arun597134/AI-Exam-portal"><img src="assets/demos/exam-portal.svg" alt="Exam portal demo" width="80%"/></a>
+<a href="https://github.com/Arun597134/AI-Exam-portal"><img src="assets/demos/exam-portal.gif" alt="Exam portal demo" width="80%"/></a>
 </div>
 
 A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission and role-based access for admins and students. A **TensorFlow.js proctoring module** detects face absence and tab-switching, and it was **deployed to certify students in a college AI internship program**.
@@ -93,23 +91,23 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 
 🔗 [**Open case file →**](https://github.com/Arun597134/AI-Exam-portal)
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## 🕰️ TIMELINE LOG: EXPERIENCE
 
 <div align="center">
-<img src="assets/experience3d.svg" alt="Internship timeline" width="100%"/>
+<img src="assets/experience.gif" alt="Internship timeline" width="100%"/>
 </div>
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## 🛠️ TVA ARSENAL: TECH STACK
 
 <div align="center">
-<img src="assets/techstack3d.svg" alt="Tech stack" width="100%"/>
+<img src="assets/techstack.gif" alt="Tech stack" width="100%"/>
 </div>
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## 📊 TIMELINE ACTIVITY MONITOR
 
@@ -132,7 +130,7 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 
 </div>
 
-<div align="center"><img src="assets/divider3d.svg" width="100%"/></div>
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
 ## 🏆 ACHIEVEMENTS & CERTIFICATIONS
 
@@ -153,7 +151,7 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 
 <div align="center">
 
-<img src="assets/divider3d.svg" width="100%"/>
+<img src="assets/divider.gif" width="100%"/>
 
 ### ✉️ OPEN A PORTAL TO ME
 

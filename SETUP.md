@@ -1,9 +1,7 @@
-# Setup (delete this file after setup)
+# Setup
 
-1. On GitHub, create a **public** repo named exactly `Arun597134` (same as your username). Tick "Add a README".
-2. Upload everything in this folder (README.md, `assets/`, `.github/`) to the repo's `main` branch.
-3. Repo -> Settings -> Actions -> General -> Workflow permissions -> **Read and write permissions** -> Save.
-4. Repo -> Actions -> "Generate Contribution Snake" -> **Run workflow**. This creates the `output` branch with the snake SVG (about 1 minute).
-5. Project demos: record a screen capture of each project (ScreenToGif on Windows, or the Xbox Game Bar), save as `assets/demos/civicflow.gif`, `hirewise.gif`, `exam-portal.gif` (keep each under 10 MB), then in README.md change `civicflow.svg` to `civicflow.gif` (same for the others).
-   - For a video instead: edit the README on github.com, drag an .mp4 into the editor, and paste the generated `user-attachments` link on its own line.
-6. Private contributions: Profile -> Contribution settings -> "Private contributions", so the snake and graph show your real activity.
+1. Public repo named exactly `Arun597134`. Upload README.md, the whole `assets/` folder (with `assets/demos/`) and `.github/`.
+2. Settings -> Actions -> General -> Workflow permissions -> Read and write. Then Actions -> "Generate Contribution Snake" -> Run workflow.
+3. Project demos: record each project (ScreenToGif), save with the SAME file name and overwrite:
+   assets/demos/civicflow.gif, assets/demos/hirewise.gif, assets/demos/exam-portal.gif  (keep each under 10 MB). No README edit needed.
+4. All main animations are real GIFs now (assets/*.gif), so they work everywhere.
