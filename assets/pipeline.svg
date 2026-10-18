@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0D1A"/><stop offset="0.5" stop-color="#1a0533"/><stop offset="1" stop-color="#0d1b4b"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#64748b"/>
+    </marker>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text{font-family:'Segoe UI',Verdana,sans-serif}
+    .t{fill:#e2e8f0;font-size:15px;font-weight:700;text-anchor:middle}
+    .s{fill:#94a3b8;font-size:11px;text-anchor:middle}
+    .h{fill:#a855f7;font-size:13px;font-weight:700;letter-spacing:2px}
+    .node{fill:#150a2b;stroke-width:2}
+    .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+    .grow{transform-box:fill-box;transform-origin:left center;animation:grow 4s ease-in-out infinite}
+    @keyframes grow{0%{transform:scaleX(0)}35%,100%{transform:scaleX(1)}}
+    .blink{animation:blink 1.2s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+
+  <rect width="1000" height="330" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="328" rx="15" fill="none" stroke="#7c3aed" stroke-opacity=".45"/>
+
+  <text x="28" y="34" class="h">DATA INGESTION &amp; VALIDATION PIPELINE</text>
+  <circle cx="960" cy="29" r="5" fill="#22c55e" class="pulse"/>
+  <text x="945" y="33" fill="#86efac" font-size="11" text-anchor="end">live</text>
+
+  <!-- connection paths -->
+  <path id="p1" d="M178 88 L262 128" stroke="#334155" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <path id="p2" d="M178 188 L262 148" stroke="#334155" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <path id="p3" d="M392 138 L468 138" stroke="#334155" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <path id="p4" d="M628 138 L704 138" stroke="#334155" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <!-- nodes -->
+  <g>
+    <rect x="28" y="58" width="150" height="60" rx="12" class="node" stroke="#38bdf8"/>
+    <text x="103" y="84" class="t">Kafka</text><text x="103" y="102" class="s">streaming events</text>
+    <rect x="28" y="158" width="150" height="60" rx="12" class="node" stroke="#a855f7"/>
+    <text x="103" y="184" class="t">Batch Sources</text><text x="103" y="202" class="s">files / tables</text>
+  </g>
+  <g>
+    <rect x="262" y="108" width="130" height="60" rx="12" class="node" stroke="#38bdf8"/>
+    <text x="327" y="134" class="t">Airflow</text><text x="327" y="152" class="s">orchestration</text>
+  </g>
+  <g>
+    <rect x="468" y="98" width="160" height="80" rx="12" class="node" stroke="#a855f7" filter="url(#glow)"/>
+    <text x="548" y="128" class="t">PostgreSQL</text>
+    <text x="548" y="148" class="s">SQL-pushdown</text>
+    <text x="548" y="164" class="s">validation</text>
+  </g>
+  <g>
+    <rect x="704" y="108" width="140" height="60" rx="12" class="node" stroke="#22c55e"/>
+    <text x="774" y="134" class="t">Monitoring</text><text x="774" y="152" class="s">automated alerts</text>
+  </g>
+
+  <!-- moving data packets -->
+  <g fill="#38bdf8" filter="url(#glow)">
+    <circle r="5"><animateMotion dur="2.6s" repeatCount="indefinite" path="M178 88 L262 128"/></circle>
+    <circle r="5"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M178 88 L262 128"/></circle>
+  </g>
+  <g fill="#a855f7" filter="url(#glow)">
+    <circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite" path="M178 188 L262 148"/></circle>
+  </g>
+  <g fill="#e2e8f0" filter="url(#glow)">
+    <circle r="5"><animateMotion dur="1.6s" repeatCount="indefinite" path="M392 138 L468 138"/></circle>
+    <circle r="5"><animateMotion dur="1.6s" begin=".8s" repeatCount="indefinite" path="M392 138 L468 138"/></circle>
+  </g>
+  <g fill="#22c55e" filter="url(#glow)">
+    <circle r="5"><animateMotion dur="1.6s" repeatCount="indefinite" path="M628 138 L704 138"/></circle>
+  </g>
+
+  <!-- memory comparison -->
+  <line x1="28" y1="244" x2="972" y2="244" stroke="#7c3aed" stroke-opacity=".3"/>
+  <text x="28" y="268" fill="#94a3b8" font-size="12">Baseline (in-memory)</text>
+  <rect x="190" y="256" width="560" height="14" rx="7" fill="#1e293b"/>
+  <rect x="190" y="256" width="560" height="14" rx="7" fill="#ef4444" opacity=".85" class="grow"/>
+
+  <text x="28" y="300" fill="#e2e8f0" font-size="12" font-weight="700">SQL pushdown</text>
+  <rect x="190" y="288" width="560" height="14" rx="7" fill="#1e293b"/>
+  <rect x="190" y="288" width="16" height="14" rx="7" fill="url(#bar)" class="grow"/>
+
+  <text x="990" y="286" fill="url(#bar)" font-size="46" font-weight="800" text-anchor="end" class="pulse" style="fill:#38bdf8">36×</text>
+  <text x="990" y="304" fill="#94a3b8" font-size="12" text-anchor="end">less memory</text>
+</svg>
