@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Contribution Snake and Activity Graph
 
 on:
   schedule:
@@ -23,6 +23,113 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh api graphql -f login="$OWNER" -f query='query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount date}}}}}}' > contrib.json
+
+      - name: Build animated activity graph
+        run: |
+          python3 - contrib.json dist/activity.svg <<'PY'
+          import json, sys
+
+          src = sys.argv[1] if len(sys.argv) > 1 else "contrib.json"
+          out = sys.argv[2] if len(sys.argv) > 2 else "dist/activity.svg"
+
+          d = json.load(open(src))
+          cal = d["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+          total = cal["totalContributions"]
+          weeks = []
+          labels = []
+          last_month = None
+          for i, w in enumerate(cal["weeks"]):
+              days = w["contributionDays"]
+              weeks.append(sum(x["contributionCount"] for x in days))
+              month = days[0]["date"][5:7] if days else None
+              if month != last_month and days:
+                  labels.append((i, ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][int(month) - 1]))
+                  last_month = month
+
+          W, H = 900, 300
+          pl, pr, pt, pb = 46, 30, 76, 40
+          n = len(weeks)
+          mx = max(max(weeks), 1)
+          xs = [pl + i * (W - pl - pr) / max(n - 1, 1) for i in range(n)]
+          ys = [H - pb - (v / mx) * (H - pt - pb) for v in weeks]
+          pts = list(zip(xs, ys))
+          lo, hi = pt, H - pb
+
+          def clamp(y):
+              return max(lo, min(hi, y))
+
+          def smooth(p):
+              s = "M%.1f,%.1f" % p[0]
+              for i in range(len(p) - 1):
+                  p0 = p[i - 1] if i > 0 else p[i]
+                  p1, p2 = p[i], p[i + 1]
+                  p3 = p[i + 2] if i + 2 < len(p) else p[i + 1]
+                  c1 = (p1[0] + (p2[0] - p0[0]) / 6, clamp(p1[1] + (p2[1] - p0[1]) / 6))
+                  c2 = (p2[0] - (p3[0] - p1[0]) / 6, clamp(p2[1] - (p3[1] - p1[1]) / 6))
+                  s += " C%.1f,%.1f %.1f,%.1f %.1f,%.1f" % (c1[0], c1[1], c2[0], c2[1], p2[0], p2[1])
+              return s
+
+          line = smooth(pts)
+          area = line + " L%.1f,%d L%.1f,%d Z" % (pts[-1][0], hi, pts[0][0], hi)
+
+          grid = ""
+          for k in range(5):
+              gy = hi - k * (hi - lo) / 4
+              val = round(mx * k / 4)
+              grid += '<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="#7c3aed" stroke-opacity=".18"/>' % (pl, gy, W - pr, gy)
+              grid += '<text x="%d" y="%.1f" class="ax" text-anchor="end">%d</text>' % (pl - 8, gy + 4, val)
+
+          months = ""
+          for i, m in labels:
+              months += '<text x="%.1f" y="%d" class="ax" text-anchor="middle">%s</text>' % (xs[i], H - 14, m)
+
+          peak_i = weeks.index(max(weeks))
+          px, py = pts[peak_i]
+          lx, ly = pts[-1]
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
+          <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D0D1A"/><stop offset=".5" stop-color="#1a0533"/><stop offset="1" stop-color="#0d1b4b"/></linearGradient>
+          <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a855f7" stop-opacity=".55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
+          <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <style>
+          text{{font-family:'Segoe UI',Verdana,sans-serif}}
+          .ax{{fill:#94a3b8;font-size:11px}}
+          .title{{fill:#e2e8f0;font-size:18px;font-weight:700}}
+          .sub{{fill:#a855f7;font-size:12px;letter-spacing:1px}}
+          .line{{fill:none;stroke:url(#ln);stroke-width:3;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 3s ease-out forwards}}
+          @keyframes draw{{to{{stroke-dashoffset:0}}}}
+          .area{{opacity:0;animation:fade 1.5s 1.8s ease forwards}}
+          @keyframes fade{{to{{opacity:1}}}}
+          .dot{{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}
+          @keyframes pulse{{0%,100%{{transform:scale(1);opacity:1}}50%{{transform:scale(1.8);opacity:.5}}}}
+          </style>
+          <rect width="{W}" height="{H}" rx="16" fill="url(#bg)"/>
+          <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="15" fill="none" stroke="#7c3aed" stroke-opacity=".45"/>
+          <text x="28" y="34" class="title">Contribution Activity</text>
+          <text x="28" y="54" class="sub">{total} CONTRIBUTIONS IN THE LAST YEAR  |  PEAK WEEK: {max(weeks)}</text>
+          {grid}
+          {months}
+          <path class="area" d="{area}" fill="url(#fill)"/>
+          <path class="line" pathLength="1" d="{line}" filter="url(#glow)"/>
+          <circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="#38bdf8"/>
+          <circle cx="{lx:.1f}" cy="{ly:.1f}" r="5" fill="#38bdf8" class="dot" style="animation-delay:3s"/>
+          </svg>'''
+
+          import os
+          os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
+          open(out, "w", encoding="utf-8").write(svg)
+          print("wrote", out, "weeks:", n, "total:", total)
+          PY
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
