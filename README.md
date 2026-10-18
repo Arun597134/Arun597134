@@ -9,6 +9,7 @@
 <br/><br/>
 
 [![Email](https://img.shields.io/badge/EMAIL-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](mailto:arun.m.dev06@gmail.com)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-arun--m--portfolio.vercel.app-0b0f0c?style=for-the-badge&logo=vercel&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](https://arun-m-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-arunvijay-0b0f0c?style=for-the-badge&logo=linkedin&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://linkedin.com/in/arunvijay-5a2845317)
 [![GitHub](https://img.shields.io/badge/GITHUB-Arun597134-0b0f0c?style=for-the-badge&logo=github&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://github.com/Arun597134)
 
@@ -30,7 +31,15 @@
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
-## 🌌 THE MULTIVERSE: MY VARIANT BRANCHES
+## 📘 TVA HANDBOOK: HOW I WORK
+
+<div align="center">
+<img src="assets/handbook.gif" alt="TVA Handbook" width="100%"/>
+</div>
+
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
+
+## 🌌 THE MULTIVERSE: MY PROJECT BRANCHES
 
 <div align="center">
 <img src="assets/multiverse.gif" alt="Multiverse of projects" width="100%"/>
@@ -38,9 +47,17 @@
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
-## ⏳ CASE FILES: PROJECTS
+## 🧵 THE TEMPORAL LOOM
 
-### 🟢 CASE 001: CivicFlow, AI Civic Complaint Platform `Jan 2026`
+<div align="center">
+<img src="assets/loom.gif" alt="Temporal Loom" width="100%"/>
+</div>
+
+<div align="center"><img src="assets/divider.gif" width="100%"/></div>
+
+## ⏳ PROJECTS
+
+### 🟢 PROJECT 01: CivicFlow, AI Civic Complaint Platform `Jan 2026`
 
 <div align="center">
 <a href="https://github.com/Arun597134/CivicflowAI"><img src="assets/demos/civicflow.gif" alt="CivicFlow demo" width="80%"/></a>
@@ -54,11 +71,11 @@ A full-stack civic complaint platform covering **all 38 Tamil Nadu districts**. 
 ![TensorFlow](https://img.shields.io/badge/CNN-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
 ![scikit-learn](https://img.shields.io/badge/Random_Forest-0b0f0c?style=flat-square&logo=scikitlearn&logoColor=39ff6a)
 
-🔗 [**Open case file →**](https://github.com/Arun597134/CivicflowAI)
+🔗 [**View project →**](https://github.com/Arun597134/CivicflowAI)
 
 ---
 
-### 🟢 CASE 002: HireWise, AI Voice Mock Interviewer `Dec 2024`
+### 🟢 PROJECT 02: HireWise, AI Voice Mock Interviewer `Dec 2024`
 
 <div align="center">
 <a href="https://github.com/AjayJ19/HireWise-AI"><img src="assets/demos/hirewise.gif" alt="HireWise demo" width="80%"/></a>
@@ -71,11 +88,11 @@ An AI-driven mock interview simulator that **parses resumes with PyMuPDF** and g
 ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0b0f0c?style=flat-square&logoColor=39ff6a)
 ![STT/TTS](https://img.shields.io/badge/STT_%2F_TTS-0b0f0c?style=flat-square&logoColor=39ff6a)
 
-🔗 [**Open case file →**](https://github.com/AjayJ19/HireWise-AI)
+🔗 [**View project →**](https://github.com/AjayJ19/HireWise-AI)
 
 ---
 
-### 🟢 CASE 003: AI Online Assessment Platform `Aug 2025`
+### 🟢 PROJECT 03: AI Online Assessment Platform `Aug 2025`
 
 <div align="center">
 <a href="https://github.com/Arun597134/AI-Exam-portal"><img src="assets/demos/exam-portal.gif" alt="Exam portal demo" width="80%"/></a>
@@ -89,7 +106,7 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 ![Node](https://img.shields.io/badge/Node.js-0b0f0c?style=flat-square&logo=nodedotjs&logoColor=39ff6a)
 ![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
 
-🔗 [**Open case file →**](https://github.com/Arun597134/AI-Exam-portal)
+🔗 [**View project →**](https://github.com/Arun597134/AI-Exam-portal)
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
@@ -157,7 +174,8 @@ A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission
 
 **Looking for internships and full-time roles in Full Stack and AI/ML.**
 
-[![Email me](https://img.shields.io/badge/SEND_A_VARIANT_REQUEST-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](mailto:arun.m.dev06@gmail.com)
+[![Email me](https://img.shields.io/badge/SEND_ME_A_MESSAGE-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](mailto:arun.m.dev06@gmail.com)
+[![Portfolio](https://img.shields.io/badge/VISIT_MY_PORTFOLIO-arun--m--portfolio.vercel.app-0b0f0c?style=for-the-badge&logo=vercel&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://arun-m-portfolio.vercel.app/)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f0c,50:39ff6a,100:d97a1e&height=120&section=footer&text=For%20All%20Time.%20Always.&fontColor=0b0f0c&fontSize=24&animation=fadeIn" width="100%"/>
 
