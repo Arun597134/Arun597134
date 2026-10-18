@@ -31,14 +31,6 @@
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
-## 📘 TVA HANDBOOK: HOW I WORK
-
-<div align="center">
-<img src="assets/handbook.gif" alt="TVA Handbook" width="100%"/>
-</div>
-
-<div align="center"><img src="assets/divider.gif" width="100%"/></div>
-
 ## 🌌 THE MULTIVERSE: MY PROJECT BRANCHES
 
 <div align="center">
@@ -47,66 +39,39 @@
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
-## 🧵 THE TEMPORAL LOOM
+## 📘 TVA GUIDE BOOK: MY PROJECTS
 
 <div align="center">
-<img src="assets/loom.gif" alt="Temporal Loom" width="100%"/>
+<img src="assets/guidebook.gif" alt="TVA Guide Book of projects" width="100%"/>
 </div>
 
-<div align="center"><img src="assets/divider.gif" width="100%"/></div>
-
-## ⏳ PROJECTS
-
-### 🟢 PROJECT 01: CivicFlow, AI Civic Complaint Platform `Jan 2026`
+### 🟢 PROJECT 01: CivicFlow
 
 <div align="center">
 <a href="https://github.com/Arun597134/CivicflowAI"><img src="assets/demos/civicflow.gif" alt="CivicFlow demo" width="80%"/></a>
 </div>
 
-A full-stack civic complaint platform covering **all 38 Tamil Nadu districts**. A **CNN-based image classifier** auto-categorizes and routes complaints, **cutting manual triage effort by 90%**. A **Random Forest** model predicts resolution timelines and flags repair quotes above Rs.500 as potential overcharges.
-
-![React](https://img.shields.io/badge/React.js-0b0f0c?style=flat-square&logo=react&logoColor=39ff6a)
-![Flask](https://img.shields.io/badge/Flask-0b0f0c?style=flat-square&logo=flask&logoColor=39ff6a)
-![SQLite](https://img.shields.io/badge/SQLite-0b0f0c?style=flat-square&logo=sqlite&logoColor=39ff6a)
-![TensorFlow](https://img.shields.io/badge/CNN-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
-![scikit-learn](https://img.shields.io/badge/Random_Forest-0b0f0c?style=flat-square&logo=scikitlearn&logoColor=39ff6a)
-
-🔗 [**View project →**](https://github.com/Arun597134/CivicflowAI)
+AI civic complaint platform for all 38 Tamil Nadu districts. 🔗 [**View project →**](https://github.com/Arun597134/CivicflowAI)
 
 ---
 
-### 🟢 PROJECT 02: HireWise, AI Voice Mock Interviewer `Dec 2024`
+### 🟢 PROJECT 02: HireWise
 
 <div align="center">
 <a href="https://github.com/AjayJ19/HireWise-AI"><img src="assets/demos/hirewise.gif" alt="HireWise demo" width="80%"/></a>
 </div>
 
-An AI-driven mock interview simulator that **parses resumes with PyMuPDF** and generates **role-specific questions** through the **Mistral AI API**. It includes **real-time speech-to-text and text-to-speech pipelines** for a fully hands-free interview experience.
-
-![Python](https://img.shields.io/badge/Python-0b0f0c?style=flat-square&logo=python&logoColor=39ff6a)
-![Mistral](https://img.shields.io/badge/Mistral_AI-0b0f0c?style=flat-square&logo=mistralai&logoColor=39ff6a)
-![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0b0f0c?style=flat-square&logoColor=39ff6a)
-![STT/TTS](https://img.shields.io/badge/STT_%2F_TTS-0b0f0c?style=flat-square&logoColor=39ff6a)
-
-🔗 [**View project →**](https://github.com/AjayJ19/HireWise-AI)
+AI voice mock interviewer with resume parsing and speech pipelines. 🔗 [**View project →**](https://github.com/AjayJ19/HireWise-AI)
 
 ---
 
-### 🟢 PROJECT 03: AI Online Assessment Platform `Aug 2025`
+### 🟢 PROJECT 03: AI Online Assessment Platform
 
 <div align="center">
 <a href="https://github.com/Arun597134/AI-Exam-portal"><img src="assets/demos/exam-portal.gif" alt="Exam portal demo" width="80%"/></a>
 </div>
 
-A **MERN-based** exam platform with **AI-generated MCQs**, timed auto-submission and role-based access for admins and students. A **TensorFlow.js proctoring module** detects face absence and tab-switching, and it was **deployed to certify students in a college AI internship program**.
-
-![MongoDB](https://img.shields.io/badge/MongoDB-0b0f0c?style=flat-square&logo=mongodb&logoColor=39ff6a)
-![Express](https://img.shields.io/badge/Express-0b0f0c?style=flat-square&logo=express&logoColor=39ff6a)
-![React](https://img.shields.io/badge/React-0b0f0c?style=flat-square&logo=react&logoColor=39ff6a)
-![Node](https://img.shields.io/badge/Node.js-0b0f0c?style=flat-square&logo=nodedotjs&logoColor=39ff6a)
-![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-0b0f0c?style=flat-square&logo=tensorflow&logoColor=39ff6a)
-
-🔗 [**View project →**](https://github.com/Arun597134/AI-Exam-portal)
+MERN exam platform with AI-generated MCQs and TensorFlow.js proctoring. 🔗 [**View project →**](https://github.com/Arun597134/AI-Exam-portal)
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
