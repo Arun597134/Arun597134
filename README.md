@@ -121,15 +121,11 @@ MERN exam platform with AI-generated MCQs and TensorFlow.js proctoring. 🔗 [**
 - 🎓 **9+ certifications** by 2nd year, including **2 Elite NPTEL certs from IIT Madras**
 - 👨‍🏫 Mentored **2+ batches** of 11th/12th students on AI/ML & Generative AI
 
-| Certification | Issuer | Year |
-|:--|:--|:--|
-| Python for Data Science (Elite) | NPTEL, IIT Madras | 2025 |
-| Database Management Systems (Elite) | NPTEL, IIT Madras | 2026 |
-| Getting Started with Deep Learning | NVIDIA | 2026 |
-| Introduction to Generative AI | Google Cloud | 2025 |
-| OCI AI Foundations | Oracle University | 2025 |
-| Front End Web Development | Infosys Springboard | 2025 |
-| Basics of MongoDB | MongoDB University | 2025 |
+### 🪪 CERTIFICATIONS
+
+<div align="center">
+<img src="assets/tempad.gif" alt="TVA Tempad showing certifications" width="80%"/>
+</div>
 
 <div align="center">
 
