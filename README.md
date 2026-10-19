@@ -148,6 +148,8 @@ Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kaf
 [![Email me](https://img.shields.io/badge/SEND_ME_A_MESSAGE-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](mailto:arun.m.dev06@gmail.com)
 [![Portfolio](https://img.shields.io/badge/VISIT_MY_PORTFOLIO-arun--m--portfolio.vercel.app-0b0f0c?style=for-the-badge&logo=vercel&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://arun-m-portfolio.vercel.app/)
 
+<img src="assets/purpose.gif" alt="Looking for my glorious purpose" width="90%"/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f0c,50:39ff6a,100:d97a1e&height=120&section=footer&text=For%20All%20Time.%20Always.&fontColor=0b0f0c&fontSize=24&animation=fadeIn" width="100%"/>
 
 <sub>Fan-made tribute theme. Not affiliated with Marvel or Disney.</sub>
