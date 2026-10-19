@@ -23,7 +23,7 @@
 + DESIGNATION   : Final-year B.Tech, Artificial Intelligence & Data Science
 + BASE OF OPS   : St. Joseph's Institute of Technology, Chennai (CGPA 8.21)
 + SPECIALITY    : Full Stack Development • AI/ML • REST APIs • DSA
-+ TIMELINE SCAN : 2 internships • 3 shipped projects • 320+ LeetCode problems
++ TIMELINE SCAN : 2 internships • 4 shipped projects • 320+ LeetCode problems
 + AFFILIATION   : MyGov Campus Ambassador (Govt. of India, digital governance)
 + MENTORSHIP    : 2+ batches of 11th/12th students in AI/ML & Generative AI
 - THREAT LEVEL  : Dangerously productive. Pruning not recommended.
@@ -72,6 +72,16 @@ AI voice mock interviewer with resume parsing and speech pipelines. 🔗 [**View
 </div>
 
 MERN exam platform with AI-generated MCQs and TensorFlow.js proctoring. 🔗 [**View project →**](https://github.com/Arun597134/AI-Exam-portal)
+
+---
+
+### 🟢 PROJECT 04: Enterprise Data Ingestion & Validation Framework
+
+<div align="center">
+<img src="assets/demos/enterprise-ingestion.gif" alt="Enterprise Data Ingestion demo" width="80%"/>
+</div>
+
+Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kafka) with SQL-pushdown validation and automated monitoring, **reducing memory usage by 36×**. 🔗 *GitHub link coming soon*
 
 <div align="center"><img src="assets/divider.gif" width="100%"/></div>
 
