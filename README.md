@@ -105,12 +105,7 @@ Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kaf
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Arun597134&show_icons=true&hide_border=true&bg_color=0b0f0c&title_color=39ff6a&text_color=e8d8b0&icon_color=d97a1e&ring_color=39ff6a&include_all_commits=true&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun597134&layout=compact&hide_border=true&bg_color=0b0f0c&title_color=39ff6a&text_color=e8d8b0" />
-
-<img src="https://streak-stats.demolab.com?user=Arun597134&hide_border=true&background=0b0f0c&ring=39ff6a&fire=d97a1e&currStreakLabel=39ff6a&currStreakNum=e8d8b0&sideLabels=e8d8b0&sideNums=e8d8b0&dates=8a8a6a&stroke=39ff6a" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arun597134&bg_color=0b0f0c&color=39ff6a&line=39ff6a&point=d97a1e&area=true&area_color=39ff6a&hide_border=true&title_color=39ff6a" width="100%"/>
+<img src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/activity.svg" alt="Timeline activity" width="100%"/>
 
 </div>
 
@@ -128,7 +123,7 @@ Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kaf
 
 - 🧩 Solved **320+ LeetCode** problems (arrays, strings, trees, graphs, DP)
 - 🇮🇳 Selected as **MyGov Campus Ambassador** for Govt. of India's digital governance initiatives
-- 🎓 **9+ certifications** by 2nd year, including **2 Elite NPTEL certs from IIT Madras**
+- 🎓 **9+ certifications** by 2nd year, including **3 Elite NPTEL certs from IIT Madras**
 - 👨‍🏫 Mentored **2+ batches** of 11th/12th students on AI/ML & Generative AI
 
 ### 🪪 CERTIFICATIONS
@@ -148,8 +143,7 @@ Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kaf
 [![Email me](https://img.shields.io/badge/SEND_ME_A_MESSAGE-arun.m.dev06%40gmail.com-0b0f0c?style=for-the-badge&logo=gmail&logoColor=39ff6a&labelColor=0b0f0c&color=39ff6a)](mailto:arun.m.dev06@gmail.com)
 [![Portfolio](https://img.shields.io/badge/VISIT_MY_PORTFOLIO-arun--m--portfolio.vercel.app-0b0f0c?style=for-the-badge&logo=vercel&logoColor=39ff6a&labelColor=0b0f0c&color=d97a1e)](https://arun-m-portfolio.vercel.app/)
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JrMmE5cXF0OTU5bjduajBvNGU3emZpYjhlaHpzZHdvOHNzbDJ3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/deshLZKithXpmIO2za/giphy.gif" alt="Looking for my glorious purpose" width="90%"/>
-<h3 align="center">🔍 looking for a glorious purpose in life...</h3>
+<img src="assets/purpose.gif" alt="Looking for my glorious purpose" width="90%"/>
 
 <img src="assets/footer.gif" alt="For all time. Always." width="100%"/>
 
