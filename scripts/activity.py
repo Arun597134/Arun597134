@@ -11,7 +11,7 @@ TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 OUT   = sys.argv[1] if len(sys.argv) > 1 else "activity.svg"
 QUERY = """query($login:String!){user(login:$login){
  repositories(ownerAffiliations:OWNER,isFork:false,first:100){totalCount nodes{languages(first:6,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}
- contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
+ contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}}"""
 
 def fetch():
     req = urllib.request.Request("https://api.github.com/graphql",
@@ -28,7 +28,9 @@ def mock():
     days = []
     for i in range(365):
         dt = start + datetime.timedelta(days=i)
-        days.append({"date": dt.isoformat(), "contributionCount": max(0, int(random.gauss(3, 4)) if random.random() > .35 else 0)})
+        c = max(0, int(random.gauss(3, 4)) if random.random() > .35 else 0)
+        lv = "NONE" if c == 0 else "FIRST_QUARTILE" if c < 3 else "SECOND_QUARTILE" if c < 6 else "THIRD_QUARTILE" if c < 10 else "FOURTH_QUARTILE"
+        days.append({"date": dt.isoformat(), "contributionCount": c, "contributionLevel": lv})
     weeks = [{"contributionDays": days[i:i+7]} for i in range(0, 365, 7)]
     langs = [("Python", 520), ("JavaScript", 340), ("Java", 180), ("HTML", 90), ("CSS", 60)]
     return {"repositories": {"totalCount": 14, "nodes": [{"languages": {"edges": [{"size": s, "node": {"name": n}} for n, s in langs]}}]},

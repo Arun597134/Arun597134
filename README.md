@@ -113,7 +113,7 @@ Hybrid batch and streaming ingestion framework (Python, PostgreSQL, Airflow, Kaf
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/Arun597134/Arun597134/output/snake.svg" alt="Contribution snake" width="100%"/>
 
 </div>
 
